@@ -15,29 +15,110 @@ const { Content } = await post.render();
 ---
 
 <Layout title={post.data.title}>
-  <article class="prose">
-    <header style="margin-bottom: 3rem; text-align: center;">
-      <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">{post.data.title}</h1>
-      <div style="color: var(--text-secondary);">
-        {new Date(post.data.pubDate).toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
+  <article class="prose fade-in">
+    <header class="blog-header">
+      <div class="blog-meta fade-in delay-1">
+        <time datetime={post.data.pubDate}>
+          {new Date(post.data.pubDate).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+            })}
+        </time>
       </div>
+      <h1 class="blog-title fade-in delay-1 gradient-text">{post.data.title}</h1>
+      
       {post.data.tags && (
-        <div style="margin-top: 1.5rem; display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
+        <div class="tags-container fade-in delay-2">
           {post.data.tags.map((tag: string) => (
-            <span style="background: var(--border-color); color: var(--text-primary); padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem;">
-              {tag}
-            </span>
+            <span class="tag"># {tag}</span>
           ))}
         </div>
       )}
     </header>
     
-    <div style="background: var(--background-color); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem 3rem;">
+    <div class="content-card fade-in delay-3">
       <Content />
     </div>
+    
+    <footer style="margin-top: 4rem; text-align: center;" class="fade-in delay-3">
+      <a href="/blog" class="back-link">&larr; Back to all announcements</a>
+    </footer>
   </article>
 </Layout>
+
+<style>
+  .blog-header {
+    text-align: center;
+    padding: 2rem 0 3rem;
+  }
+
+  .blog-meta {
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+  }
+
+  .blog-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  .tags-container {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    background: rgba(37, 99, 235, 0.1);
+    color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .content-card {
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 3.5rem 4rem;
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
+  }
+
+  .back-link {
+    display: inline-block;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    transition: all 0.2s ease;
+  }
+
+  .back-link:hover {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    background: var(--surface-color);
+  }
+
+  @media (max-width: 768px) {
+    .content-card {
+      padding: 2rem 1.5rem;
+      border-radius: 16px;
+    }
+  }
+</style>
