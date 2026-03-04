@@ -46,9 +46,16 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
     
     <aside class="sidebar">
       <div class="widget">
-        <h2 class="widget-title">Twitter</h2>
-        <a class="twitter-timeline" data-tweet-limit="3" data-theme="light" href="https://twitter.com/SZhang_Lab?ref_src=twsrc%5Etfw">Tweets by SZhang_Lab</a>
+        <h2 class="widget-title">Twitter / X</h2>
+        <a class="twitter-timeline"
+           data-tweet-limit="3"
+           data-chrome="noheader nofooter noborders transparent"
+           data-dnt="true"
+           href="https://twitter.com/SZhang_Lab?ref_src=twsrc%5Etfw">Tweets by SZhang_Lab</a>
         <script is:inline async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p class="twitter-follow">
+          <a href="https://twitter.com/SZhang_Lab" target="_blank" rel="noopener noreferrer">Follow @SZhang_Lab →</a>
+        </p>
       </div>
     </aside>
   </div>
