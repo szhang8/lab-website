@@ -14,6 +14,8 @@ description: ''
 
 <!-- wp:heading {"textAlign":"center","level":1} -->
 <h1 class="wp-block-heading has-text-align-center" id="learning-is-our-motto"><strong>Learning is our motto!&nbsp;&nbsp;</strong></h1>
+<br />
+<br />
 <!-- /wp:heading -->
 
 <!-- wp:separator {"opacity":"css"} -->
