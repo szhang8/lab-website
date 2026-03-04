@@ -5,21 +5,25 @@ description: ''
 ---
 
 <!-- wp:paragraph {"dropCap":true,"style":{"typography":{"fontSize":"16px"}},"textColor":"cyan-bluish-gray"} -->
-<p class="has-drop-cap has-cyan-bluish-gray-color has-text-color" style="font-size:16px">We are a group of curious, sometimes naive individuals, who want to run their research projects - you can call it "little entrepreneurial exercise" - no matter how nebulous or how ambitious it sounds at the beginning. </p>
+<p class="has-drop-cap has-cyan-bluish-gray-color has-text-color" style="font-size:18px; font-style: italic; border-left: 4px solid #cc0000; padding-left: 15px; margin-bottom: 20px;">
+  "We are a group of curious, sometimes naive individuals, who want to run their research projects - you can call it 'little entrepreneurial exercise' - no matter how nebulous or how ambitious it sounds at the beginning."
+</p>
+
+<p class="has-cyan-bluish-gray-color has-text-color" style="font-size:18px; font-style: italic; border-left: 4px solid #cc0000; padding-left: 15px; margin-bottom: 30px;">
+  "We mix 10kg of passion, then add 5000 spatulas full of hard work. We heat our portion with a warmth of confidence and run the mixture in a perseverance gel. We stain for patience and resilience in a buffer full of success! We see the bands and marks of million of accomplishments shining strong under the light of learning. We transfer our knowledge portion into marks of aspiration of excellence which show today and tomorrow all the way."
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
+<hr class="wp-block-separator has-css-opacity" style="margin-bottom: 10px;"/>
 <!-- /wp:separator -->
 
 <!-- wp:heading {"textAlign":"center","level":1} -->
-<h1 class="wp-block-heading has-text-align-center" id="learning-is-our-motto"><strong>Learning is our motto!&nbsp;&nbsp;</strong></h1>
-<br />
-<br />
+<h1 class="wp-block-heading has-text-align-center" id="learning-is-our-motto" style="margin: 20px 0;"><strong>Learning is our motto!</strong></h1>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"opacity":"css"} -->
-<hr class="wp-block-separator has-css-opacity"/>
+<hr class="wp-block-separator has-css-opacity" style="margin-top: 10px; margin-bottom: 50px;"/>
 <!-- /wp:separator -->
 
 <!-- wp:list -->
