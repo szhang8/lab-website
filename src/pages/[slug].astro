@@ -15,53 +15,38 @@ const { Content } = await page.render();
 ---
 
 <Layout title={page.data.title}>
-  <article class="prose fade-in">
-    <header class="page-header">
-      <h1 class="gradient-text">{page.data.title}</h1>
-      {page.data.description && <p class="page-description">{page.data.description}</p>}
-    </header>
-    
-    <div class="content-card">
-      <Content />
-    </div>
-  </article>
+  <div class="site-main">
+    <article class="page-content prose">
+      <header class="entry-header">
+        <h1 class="entry-title">{page.data.title}</h1>
+      </header>
+      
+      <div class="entry-sub-content">
+        <Content />
+      </div>
+    </article>
+  </div>
 </Layout>
 
 <style>
-  .page-header {
-    text-align: center;
-    padding: 3rem 0;
+  .site-main {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 20px;
+  }
+  
+  .entry-header {
+    margin-bottom: 2rem;
   }
 
-  .gradient-text {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .entry-title {
+    font-size: 26px;
+    color: var(--primary-color);
   }
 
-  .page-description {
-    font-size: 1.25rem;
-    color: var(--text-secondary);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .content-card {
-    background: var(--surface-color);
-    border: 1px solid var(--border-color);
-    border-radius: 16px;
-    padding: 3rem;
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
-  }
-
-  @media (max-width: 768px) {
-    .content-card {
-      padding: 1.5rem;
-    }
-    .gradient-text {
-      font-size: 2.5rem;
-    }
+  .entry-sub-content {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.8;
   }
 </style>

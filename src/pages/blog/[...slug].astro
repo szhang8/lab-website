@@ -15,110 +15,88 @@ const { Content } = await post.render();
 ---
 
 <Layout title={post.data.title}>
-  <article class="prose fade-in">
-    <header class="blog-header">
-      <div class="blog-meta fade-in delay-1">
-        <time datetime={post.data.pubDate}>
-          {new Date(post.data.pubDate).toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-            })}
-        </time>
-      </div>
-      <h1 class="blog-title fade-in delay-1 gradient-text">{post.data.title}</h1>
-      
-      {post.data.tags && (
-        <div class="tags-container fade-in delay-2">
-          {post.data.tags.map((tag: string) => (
-            <span class="tag"># {tag}</span>
-          ))}
+  <div class="site-main">
+    <article class="post-content prose">
+      <header class="entry-header">
+        <h1 class="entry-title">{post.data.title}</h1>
+        <div class="entry-meta">
+          <span class="posted-on">
+            <time datetime={post.data.pubDate}>
+              {new Date(post.data.pubDate).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })}
+            </time>
+          </span>
+          <span class="byline">Admin</span>
         </div>
-      )}
-    </header>
-    
-    <div class="content-card fade-in delay-3">
-      <Content />
-    </div>
-    
-    <footer style="margin-top: 4rem; text-align: center;" class="fade-in delay-3">
-      <a href="/blog" class="back-link">&larr; Back to all announcements</a>
-    </footer>
-  </article>
+      </header>
+      
+      <div class="entry-sub-content">
+        <Content />
+      </div>
+      
+      <footer class="entry-footer">
+        {post.data.tags && post.data.tags.map((tag: string) => (
+          <span class="tag">{tag}</span>
+        ))}
+      </footer>
+    </article>
+  </div>
 </Layout>
 
 <style>
-  .blog-header {
-    text-align: center;
-    padding: 2rem 0 3rem;
+  .site-main {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 0 20px;
+  }
+  
+  .entry-header {
+    margin-bottom: 2rem;
   }
 
-  .blog-meta {
-    color: var(--secondary-color);
-    font-weight: 600;
-    font-size: 1rem;
+  .entry-title {
+    font-size: 26px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+
+  .entry-meta {
+    font-size: 13px;
+    color: #999999;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
   }
 
-  .blog-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    margin-bottom: 2rem;
-    line-height: 1.2;
+  .entry-sub-content {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.8;
   }
 
-  .gradient-text {
-    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-  }
-
-  .tags-container {
+  .entry-footer {
+    margin-top: 3rem;
+    border-top: 1px solid #eeeeee;
+    padding-top: 1.5rem;
     display: flex;
-    gap: 0.75rem;
-    justify-content: center;
+    gap: 10px;
     flex-wrap: wrap;
   }
 
   .tag {
-    background: rgba(37, 99, 235, 0.1);
-    color: var(--secondary-color);
-    padding: 0.5rem 1rem;
-    border-radius: 9999px;
-    font-size: 0.875rem;
-    font-weight: 500;
-  }
-
-  .content-card {
-    background: var(--surface-color);
-    border: 1px solid var(--border-color);
-    border-radius: 24px;
-    padding: 3.5rem 4rem;
-    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
-  }
-
-  .back-link {
-    display: inline-block;
-    font-weight: 600;
-    color: var(--text-secondary);
-    padding: 0.75rem 1.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    transition: all 0.2s ease;
-  }
-
-  .back-link:hover {
-    color: var(--secondary-color);
-    border-color: var(--secondary-color);
-    background: var(--surface-color);
-  }
-
-  @media (max-width: 768px) {
-    .content-card {
-      padding: 2rem 1.5rem;
-      border-radius: 16px;
-    }
+    font-size: 12px;
+    background-color: #f1f1f1;
+    color: #555555;
+    padding: 5px 12px;
+    border-radius: 3px;
+    text-transform: uppercase;
   }
 </style>
