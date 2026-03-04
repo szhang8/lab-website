@@ -4,7 +4,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://szhang8.github.io',
-    base: '/lab-website',
+    base: '/lab-website/',
     output: 'static',
 });
 
