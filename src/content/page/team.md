@@ -30,23 +30,23 @@ description: ''
 
 <!-- wp:list -->
 <ul class="wp-block-list" style="margin-top: 30px;"><!-- wp:list-item -->
-<li>Siyuan Zhang, M.D., Ph.D., Lab Head &amp; Cheer Leader, <a href="mailto:szhang8@nd.edu">Siyuan.Zhang@UTSouthwestern.edu</a></li>
+<li>Siyuan Zhang, M.D., Ph.D., Lab Head &amp; Cheer Leader, <a href="mailto:Siyuan.Zhang@UTSouthwestern.edu">Siyuan.Zhang@UTSouthwestern.edu</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Emilija Aleksandrovic, M.S., Graduate Student, <a href="mailto:ealeksa2@nd.edu">Emilija.Aleksandrovic@UTSouthwestern.edu</a></li>
+<li>Emilija Aleksandrovic, M.S., Graduate Student, <a href="mailto:Emilija.Aleksandrovic@UTSouthwestern.edu">Emilija.Aleksandrovic@UTSouthwestern.edu</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Xiyu Liu, M.S., Graduate Student, <a href="mailto:xliu32@nd.edu">Xiyu.Liu@UTSouthwestern.edu</a></li>
+<li>Xiyu Liu, M.S., Graduate Student, <a href="mailto:Xiyu.Liu@UTSouthwestern.edu">Xiyu.Liu@UTSouthwestern.edu</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Wei Ma, M.S., Graduate Student, <a href="mailto:wma2@nd.edu">Wei.Ma@UTSouthwestern.edu</a></li>
+<li>Wei Ma, M.S., Graduate Student, <a href="mailto:Wei.Ma@UTSouthwestern.edu">Wei.Ma@UTSouthwestern.edu</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Xinrui Yang, B.S., Gradaute Student, <a href="mailto:xyang22@nd.edu">Xinrui.Yang@UTSouthwestern.edu</a></li>
+<li>Xinrui Yang, B.S., Gradaute Student, <a href="mailto:Xinrui.Yang@UTSouthwestern.edu">Xinrui.Yang@UTSouthwestern.edu</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
