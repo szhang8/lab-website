@@ -1,0 +1,47 @@
+[2025-09-24 19:45:31 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:45:31 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:45:32 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:45:32 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:45:39 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:45:39 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:45:40 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:45:40 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:46:13 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:46:13 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:46:14 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:46:14 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:47:19 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:47:19 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-09-24 19:47:21 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-09-24 19:47:21 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Team" has been purged, triggered by action: save_post 
+[2025-10-20 13:13:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:13:00 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:13:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:13:33 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:13:33 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/ has been purged, triggered by action: save_post 
+[2025-10-20 13:13:33 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Susan Komen 5K for Breast Cancer! :)" and URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/, triggered by action: save_post 
+[2025-10-20 13:13:33 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/) adjacent to post with id: 1285 has been purged, triggered by action: save_post 
+[2025-10-20 13:13:33 : INFO] - Cache for all archives page associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" have been purged, triggered by action: save_post 
+[2025-10-20 13:13:33 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" has been purged, triggered by action: save_post 
+[2025-10-20 13:13:35 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:13:35 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/ has been purged, triggered by action: save_post 
+[2025-10-20 13:13:35 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Susan Komen 5K for Breast Cancer! :)" and URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/, triggered by action: save_post 
+[2025-10-20 13:13:35 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/) adjacent to post with id: 1285 has been purged, triggered by action: save_post 
+[2025-10-20 13:13:35 : INFO] - Cache for all archives page associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" have been purged, triggered by action: save_post 
+[2025-10-20 13:13:35 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" has been purged, triggered by action: save_post 
+[2025-10-20 13:16:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:16:21 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/ has been purged, triggered by action: save_post 
+[2025-10-20 13:16:21 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Susan Komen 5K for Breast Cancer! :)" and URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/, triggered by action: save_post 
+[2025-10-20 13:16:21 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/) adjacent to post with id: 1285 has been purged, triggered by action: save_post 
+[2025-10-20 13:16:21 : INFO] - Cache for all archives page associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" have been purged, triggered by action: save_post 
+[2025-10-20 13:16:21 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" has been purged, triggered by action: save_post 
+[2025-10-20 13:16:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-10-20 13:16:23 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/ has been purged, triggered by action: save_post 
+[2025-10-20 13:16:23 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Susan Komen 5K for Breast Cancer! :)" and URL: https://www.curiosityrover.org/2025/10/20/susan-komen-5k-for-breast-cancer/, triggered by action: save_post 
+[2025-10-20 13:16:23 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/) adjacent to post with id: 1285 has been purged, triggered by action: save_post 
+[2025-10-20 13:16:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" have been purged, triggered by action: save_post 
+[2025-10-20 13:16:23 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: post and Title: "Susan Komen 5K for Breast Cancer! :)" has been purged, triggered by action: save_post 
+[2025-10-20 22:20:10 : INFO] - Cache for URL: https://www.curiosityrover.org/research/ has been purged, triggered by action: save_post 
+[2025-10-20 22:20:10 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Research" has been purged, triggered by action: save_post 
+[2025-10-20 22:20:11 : INFO] - Cache for URL: https://www.curiosityrover.org/research/ has been purged, triggered by action: save_post 
+[2025-10-20 22:20:11 : INFO] - Cache for author page URL: https://www.curiosityrover.org/author/admin/ associated with post_type: page and Title: "Research" has been purged, triggered by action: save_post 

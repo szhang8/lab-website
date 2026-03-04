@@ -4,6 +4,50 @@ pubDate: '2018-12-16'
 description: ''
 ---
 
-<!-- wp:gallery {"ids":[863,862,861,860,859,858,856,854,853],"linkTo":"file"} -->
-<figure class="wp-block-gallery columns-3 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/Star.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/Star.jpg" alt="" data-id="859" class="wp-image-859"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/kaleidoscope-of-the-cell.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/kaleidoscope-of-the-cell.jpg" alt="" data-id="861" class="wp-image-861"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/Lava.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/Lava.jpg" alt="" data-id="860" class="wp-image-860"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/mesmerizing-TME.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/mesmerizing-TME.jpg" alt="" data-id="858" class="wp-image-858"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/RNA-velocity-copy.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/RNA-velocity-copy.jpg" alt="" data-id="862" class="wp-image-862"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/Microglia.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/Microglia.jpg" alt="" data-id="856" class="wp-image-856"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/CyTOF-touch.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/CyTOF-touch.jpg" alt="" data-id="854" class="wp-image-854"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/16S-1.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/16S-1.jpg" alt="" data-id="863" class="wp-image-863"/></a></figure></li><li class="blocks-gallery-item"><figure><a href="https://www.curiosityrover.org/wp-content/uploads/2020/12/Dialogue.jpg"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/Dialogue.jpg" alt="" data-id="853" class="wp-image-853"/></a></figure></li></ul></figure>
-<!-- /wp:gallery -->
+<div class="gallery-grid">
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/Star.jpg" target="_blank">
+      <img src="/uploads/2020/12/Star.jpg" alt="Star" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/kaleidoscope-of-the-cell.jpg" target="_blank">
+      <img src="/uploads/2020/12/kaleidoscope-of-the-cell.jpg" alt="Kaleidoscope of the Cell" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/Lava.jpg" target="_blank">
+      <img src="/uploads/2020/12/Lava.jpg" alt="Lava" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/mesmerizing-TME.jpg" target="_blank">
+      <img src="/uploads/2020/12/mesmerizing-TME.jpg" alt="Mesmerizing TME" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/RNA-velocity-copy.jpg" target="_blank">
+      <img src="/uploads/2020/12/RNA-velocity-copy.jpg" alt="RNA Velocity" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/Microglia.jpg" target="_blank">
+      <img src="/uploads/2020/12/Microglia.jpg" alt="Microglia" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/CyTOF-touch.jpg" target="_blank">
+      <img src="/uploads/2020/12/CyTOF-touch.jpg" alt="CyTOF Touch" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/16S-1.jpg" target="_blank">
+      <img src="/uploads/2020/12/16S-1.jpg" alt="16S" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2020/12/Dialogue.jpg" target="_blank">
+      <img src="/uploads/2020/12/Dialogue.jpg" alt="Dialogue" loading="lazy" />
+    </a>
+  </div>
+</div>

@@ -7,47 +7,82 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
 ---
 
 <Layout title="Home">
-  <div class="site-main">
-    <div class="post-feed">
-      {recentPosts.map(post => (
-        <article class="post-card">
-          <header class="entry-header">
-            <h2 class="entry-title"><a href={`/blog/${post.slug}`}>{post.data.title}</a></h2>
-            <div class="entry-meta">
-              <span class="posted-on">
-                <a href={`/blog/${post.slug}`}>
-                  <time>{new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
-                </a>
-              </span>
-              <span class="byline">Admin</span>
+  <div class="site-main container">
+    <div class="content-area">
+      <div class="post-feed">
+        {recentPosts.map(post => (
+          <article class="post-card">
+            <header class="entry-header">
+              <h2 class="entry-title"><a href={`/blog/${post.slug}`}>{post.data.title}</a></h2>
+              <div class="entry-meta">
+                <span class="posted-on">
+                  <a href={`/blog/${post.slug}`}>
+                    <time>{new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+                  </a>
+                </span>
+                <span class="byline">Admin</span>
+              </div>
+            </header>
+            
+            <div class="entry-summary">
+              {post.data.description ? (
+                <p>{post.data.description}</p>
+              ) : (
+                <p>Keep reading to discover more about this topic...</p>
+              )}
             </div>
-          </header>
-          
-          <div class="entry-summary">
-            {post.data.description ? (
-              <p>{post.data.description}</p>
-            ) : (
-              <p>Keep reading to discover more about this topic...</p>
-            )}
-          </div>
-          
-          <div class="more-link-wrapper">
-            <a href={`/blog/${post.slug}`} class="button more-link">Read more</a>
-          </div>
-        </article>
-      ))}
+            
+            <div class="more-link-wrapper">
+              <a href={`/blog/${post.slug}`} class="button more-link">Read more</a>
+            </div>
+          </article>
+        ))}
+      </div>
+      
+      <div class="pagination">
+        <a href="/blog" class="button">Older posts</a>
+      </div>
     </div>
     
-    <div class="pagination">
-      <a href="/blog" class="button">Older posts</a>
-    </div>
+    <aside class="sidebar">
+      <div class="widget">
+        <h2 class="widget-title">Twitter</h2>
+        <a class="twitter-timeline" data-tweet-limit="3" data-theme="light" href="https://twitter.com/SZhang_Lab?ref_src=twsrc%5Etfw">Tweets by SZhang_Lab</a>
+        <script is:inline async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </aside>
   </div>
 </Layout>
 
 <style>
   .site-main {
-    max-width: 800px;
+    max-width: 1140px;
     margin: 4rem auto;
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .content-area {
+    flex: 1;
+    max-width: 800px;
+  }
+  
+  .sidebar {
+    width: 300px;
+    flex-shrink: 0;
+  }
+  
+  .widget {
+    margin-bottom: 2rem;
+  }
+  
+  .widget-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-color);
   }
   
   .post-card {
@@ -105,5 +140,15 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
   .pagination {
     text-align: left;
     margin-top: 3rem;
+  }
+  @media (max-width: 992px) {
+    .site-main {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .sidebar {
+      width: 100%;
+    }
   }
 </style>

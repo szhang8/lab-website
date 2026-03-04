@@ -2,16 +2,9 @@
 ---
 
 <header class="site-header">
-  <div class="header-overlay">
-    <div class="site-branding">
-      <a href="/" rel="home" class="logo-link">
-        <img src="/uploads/2018/12/Evolving-Minds-2.png" alt="Welcome to S.Zhang Laboratory" class="custom-logo" width="650" height="397" />
-      </a>
-      <h1 class="site-title"><a href="/">Welcome to S.Zhang Laboratory</a></h1>
-      <p class="site-description">Exploring Cancer Biology @ UT Southwestern Medical Center</p>
-    </div>
-
-    <nav id="site-navigation" class="main-navigation container">
+  <!-- Navigation on TOP -->
+  <div class="top-nav">
+    <nav class="main-navigation">
       <ul>
         <li><a href="/research">Research</a></li>
         <li><a href="/team">Team</a></li>
@@ -23,88 +16,171 @@
       </ul>
     </nav>
   </div>
+
+  <!-- Hero section with rotating backgrounds -->
+  <div class="hero-section">
+    <div class="slideshow">
+      <div class="slide active" style="background-image: url('/uploads/2018/12/cropped-Candy-dots.png');"></div>
+      <div class="slide" style="background-image: url('/uploads/2018/12/cropped-Brain_astrocyte_microglia_10x-lens.jpg');"></div>
+      <div class="slide" style="background-image: url('/uploads/2018/12/cropped-BBB.jpg');"></div>
+      <div class="slide" style="background-image: url('/uploads/2018/12/cropped-Screen-Shot-2018-12-15-at-4.21.51-PM.png');"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <a href="/" rel="home" class="logo-link">
+        <img src="/uploads/2018/12/Evolving-Minds-2.png" alt="Welcome to S.Zhang Laboratory" class="custom-logo" />
+      </a>
+      <h1 class="site-title">Welcome to S.Zhang Laboratory</h1>
+      <p class="site-description">Exploring Cancer Biology @ UT Southwestern Medical Center</p>
+    </div>
+  </div>
 </header>
 
-<style>
+<script>
+  // Simple slideshow rotation
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  
+  function rotateSlides() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+  
+  setInterval(rotateSlides, 5000);
+</script>
+
+<style is:global>
   .site-header {
-    background-image: url('/uploads/2018/12/cropped-Candy-dots.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid var(--border-color);
+    position: relative;
   }
 
-  .header-overlay {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 3rem 0;
+  /* Top navigation bar - red/maroon */
+  .site-header .top-nav {
+    background-color: #a33238 !important;
+    padding: 14px 0;
+    position: relative;
+    z-index: 10;
   }
 
-  .site-branding {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .custom-logo {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    max-height: 250px;
-    margin: 0 auto 1.5rem auto;
-    display: block;
-  }
-
-  .site-title {
-    font-size: 32px;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-  }
-
-  .site-title a {
-    color: #000000;
-  }
-
-  .site-description {
-    color: #555555;
-    font-size: 16px;
-    margin-bottom: 0;
-    font-style: italic;
-  }
-
-  .main-navigation {
-    border-top: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
-    padding: 1rem 0;
-    margin-top: 2rem;
-  }
-
-  .main-navigation ul {
+  .site-header .main-navigation ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
     gap: 2rem;
+    margin: 0;
+    padding: 0;
   }
 
-  .main-navigation a {
-    font-size: 14px;
+  .site-header .main-navigation a {
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #333333;
+    letter-spacing: 1.5px;
+    color: #ffffff !important;
   }
 
-  .main-navigation a:hover {
-    color: var(--accent-color);
+  .site-header .main-navigation a:hover {
+    color: #ffcccc !important;
+  }
+
+  /* Hero section */
+  .site-header .hero-section {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* Slideshow backgrounds */
+  .site-header .slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .site-header .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  .site-header .slide.active {
+    opacity: 1;
+  }
+
+  /* Dark overlay for readability */
+  .site-header .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+  /* Hero content - all WHITE text */
+  .site-header .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .site-header .custom-logo {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 280px;
+    margin: 0 auto 2rem auto;
+    display: block;
+  }
+
+  .site-header .site-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .site-header .site-description {
+    color: #ffffff !important;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   }
 
   @media (max-width: 768px) {
-    .site-title {
-      font-size: 24px;
+    .site-header .site-title {
+      font-size: 22px;
+      letter-spacing: 1px;
     }
-    .main-navigation ul {
-      gap: 1rem;
-      flex-direction: column;
-      align-items: center;
+    .site-header .main-navigation ul {
+      gap: 0.75rem;
+    }
+    .site-header .main-navigation a {
+      font-size: 11px;
+    }
+    .site-header .hero-section {
+      min-height: 350px;
     }
   }
 </style>
