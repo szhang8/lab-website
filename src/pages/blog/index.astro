@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
+const base = import.meta.env.BASE_URL;
 const posts = await getCollection('blog');
 const sortedPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 ---
@@ -17,7 +18,7 @@ const sortedPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
         <article class="post-card" style="margin-bottom: 4rem; padding-bottom: 4rem; border-bottom: 1px solid #eeeeee;">
           <header class="entry-header" style="margin-bottom: 1.5rem;">
             <h2 class="entry-title" style="font-size: 26px; margin-bottom: 10px;">
-              <a href={`/blog/${post.slug}`} style="color: var(--primary-color);">{post.data.title}</a>
+              <a href={`${base}blog/${post.slug}`} style="color: var(--primary-color);">{post.data.title}</a>
             </h2>
             <div class="entry-meta" style="font-size: 13px; color: #999999; text-transform: uppercase; letter-spacing: 1px;">
               <span class="posted-on">

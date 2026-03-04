@@ -1,4 +1,5 @@
 ---
+const base = import.meta.env.BASE_URL;
 ---
 
 <header class="site-header">
@@ -6,29 +7,30 @@
   <div class="top-nav">
     <nav class="main-navigation">
       <ul>
-        <li><a href="/research">Research</a></li>
-        <li><a href="/team">Team</a></li>
-        <li><a href="/publications">Publications</a></li>
-        <li><a href="/lab-arts">Biology is beautiful!</a></li>
-        <li><a href="/teaching">Mentoring</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/contact-us">Contacts</a></li>
+        <li><a href={`${base}research`}>Research</a></li>
+        <li><a href={`${base}team`}>Team</a></li>
+        <li><a href={`${base}publications`}>Publications</a></li>
+        <li><a href={`${base}lab-arts`}>Biology is beautiful!</a></li>
+        <li><a href={`${base}teaching`}>Mentoring</a></li>
+        <li><a href={`${base}blog`}>Blog</a></li>
+        <li><a href={`${base}contact-us`}>Contacts</a></li>
       </ul>
     </nav>
   </div>
 
   <!-- Hero section with rotating backgrounds -->
   <div class="hero-section">
-    <div class="slideshow">
-      <div class="slide active" style="background-image: url('/uploads/2018/12/cropped-Candy-dots.png');"></div>
-      <div class="slide" style="background-image: url('/uploads/2018/12/cropped-Brain_astrocyte_microglia_10x-lens.jpg');"></div>
-      <div class="slide" style="background-image: url('/uploads/2018/12/cropped-BBB.jpg');"></div>
-      <div class="slide" style="background-image: url('/uploads/2018/12/cropped-Screen-Shot-2018-12-15-at-4.21.51-PM.png');"></div>
+    <div class="slideshow"
+         data-base={base}>
+      <div class="slide active" data-bg={`${base}uploads/2018/12/cropped-Candy-dots.png`}></div>
+      <div class="slide" data-bg={`${base}uploads/2018/12/cropped-Brain_astrocyte_microglia_10x-lens.jpg`}></div>
+      <div class="slide" data-bg={`${base}uploads/2018/12/cropped-BBB.jpg`}></div>
+      <div class="slide" data-bg={`${base}uploads/2018/12/cropped-Screen-Shot-2018-12-15-at-4.21.51-PM.png`}></div>
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <a href="/" rel="home" class="logo-link">
-        <img src="/uploads/2018/12/Evolving-Minds-2.png" alt="Welcome to S.Zhang Laboratory" class="custom-logo" />
+      <a href={base} rel="home" class="logo-link">
+        <img src={`${base}uploads/2018/12/Evolving-Minds-2.png`} alt="Welcome to S.Zhang Laboratory" class="custom-logo" />
       </a>
       <h1 class="site-title">Welcome to S.Zhang Laboratory</h1>
       <p class="site-description">Exploring Cancer Biology @ UT Southwestern Medical Center</p>
@@ -37,10 +39,14 @@
 </header>
 
 <script>
-  // Simple slideshow rotation
-  let currentSlide = 0;
+  // Set background images from data attributes and rotate
   const slides = document.querySelectorAll('.slide');
-  
+  slides.forEach(slide => {
+    const bg = slide.getAttribute('data-bg');
+    if (bg) slide.style.backgroundImage = `url('${bg}')`;
+  });
+
+  let currentSlide = 0;
   function rotateSlides() {
     slides[currentSlide].classList.remove('active');
     currentSlide = (currentSlide + 1) % slides.length;
