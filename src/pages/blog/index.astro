@@ -37,7 +37,7 @@ const sortedPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
           </div>
           
           <div class="more-link-wrapper" style="margin-top: 20px;">
-            <a href={`/blog/${post.slug}`} class="button">Read more</a>
+            <a href={`${base}blog/${post.slug}`} class="button">Read more</a>
           </div>
         </article>
       ))}

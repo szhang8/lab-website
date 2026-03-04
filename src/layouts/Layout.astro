@@ -13,11 +13,11 @@ const { title } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Exploring Cancer Biology @ UT Southwestern Medical Center" />
+    <meta name="description" content="S.Zhang Laboratory @ UTSW" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/uploads/2018/12/favicon.png" />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/'}uploads/2018/12/favicon.png`} />
     <meta name="generator" content={Astro.generator} />
-    <title>{title} - Welcome to S.Zhang Laboratory</title>
+    <title>{title} | S.Zhang Laboratory</title>
   </head>
   <body>
     <div id="page" class="site">
