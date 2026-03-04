@@ -6,17 +6,22 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 <header class="site-header">
   <!-- Navigation on TOP -->
   <div class="top-nav">
-    <nav class="main-navigation">
-      <ul>
-        <li><a href={`${base}research`}>Research</a></li>
-        <li><a href={`${base}team`}>Team</a></li>
-        <li><a href={`${base}publications`}>Publications</a></li>
-        <li><a href={`${base}lab-arts`}>Biology is beautiful!</a></li>
-        <li><a href={`${base}teaching`}>Mentoring</a></li>
-        <li><a href={`${base}blog`}>Blog</a></li>
-        <li><a href={`${base}contact-us`}>Contacts</a></li>
-      </ul>
-    </nav>
+    <div class="container nav-container">
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="main-navigation">
+        <ul id="primary-menu">
+          <li><a href={`${base}research`}>Research</a></li>
+          <li><a href={`${base}team`}>Team</a></li>
+          <li><a href={`${base}publications`}>Publications</a></li>
+          <li><a href={`${base}lab-arts`}>Biology is beautiful!</a></li>
+          <li><a href={`${base}teaching`}>Mentoring</a></li>
+          <li><a href={`${base}blog`}>Blog</a></li>
+          <li><a href={`${base}contact-us`}>Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 
   <!-- Hero section with rotating backgrounds -->
@@ -40,15 +45,27 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
 </header>
 
 <script>
+  // Mobile Menu Toggle
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mainNav = document.querySelector('.main-navigation');
+  
+  if (menuToggle && mainNav) {
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      mainNav.classList.toggle('toggled');
+    });
+  }
+
   // Set background images from data attributes and rotate
   const slides = document.querySelectorAll('.slide');
   slides.forEach(slide => {
     const bg = slide.getAttribute('data-bg');
-    if (bg) slide.style.backgroundImage = `url('${bg}')`;
+    if (bg) (slide as HTMLElement).style.backgroundImage = `url('${bg}')`;
   });
 
   let currentSlide = 0;
   function rotateSlides() {
+    if (slides.length <= 1) return;
     slides[currentSlide].classList.remove('active');
     currentSlide = (currentSlide + 1) % slides.length;
     slides[currentSlide].classList.add('active');
@@ -65,10 +82,53 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
   /* Top navigation bar - red/maroon */
   .site-header .top-nav {
     background-color: #a33238 !important;
-    padding: 14px 0;
+    padding: 0;
     position: relative;
-    z-index: 10;
+    z-index: 100;
   }
+
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  /* Mobile toggle button */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 101;
+  }
+
+  .hamburger {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: white;
+    position: relative;
+    transition: background 0.3s;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: white;
+    left: 0;
+    transition: transform 0.3s;
+  }
+
+  .hamburger::before { top: -6px; }
+  .hamburger::after { bottom: -6px; }
+
+  .menu-toggle.active .hamburger { background: transparent; }
+  .menu-toggle.active .hamburger::before { transform: translateY(6px) rotate(45deg); }
+  .menu-toggle.active .hamburger::after { transform: translateY(-6px) rotate(-45deg); }
 
   .site-header .main-navigation ul {
     display: flex;
@@ -77,7 +137,7 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     list-style: none;
     gap: 2rem;
     margin: 0;
-    padding: 0;
+    padding: 14px 0;
   }
 
   .site-header .main-navigation a {
@@ -86,6 +146,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff !important;
+    display: block;
+    white-space: nowrap;
   }
 
   .site-header .main-navigation a:hover {
@@ -146,10 +208,12 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     z-index: 2;
     text-align: center;
     padding: 60px 20px;
+    width: 100%;
+    max-width: 1200px;
   }
 
   .site-header .custom-logo {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     width: auto;
     max-height: 280px;
@@ -165,6 +229,8 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     text-transform: uppercase;
     margin-bottom: 0.75rem;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    word-break: break-word;
   }
 
   .site-header .site-description {
@@ -173,21 +239,81 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
     font-style: italic;
     margin-bottom: 0;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    line-height: 1.4;
+  }
+
+  @media (max-width: 992px) {
+    .menu-toggle {
+      display: block;
+    }
+
+    .nav-container {
+      justify-content: flex-end;
+    }
+
+    .site-header .main-navigation {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #a33238;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .site-header .main-navigation.toggled {
+      display: block;
+    }
+
+    .site-header .main-navigation ul {
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+    }
+
+    .site-header .main-navigation li {
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .site-header .main-navigation a {
+      padding: 15px 20px;
+      font-size: 14px;
+    }
   }
 
   @media (max-width: 768px) {
+    .site-header .hero-section {
+      min-height: 400px;
+    }
+
     .site-header .site-title {
-      font-size: 22px;
+      font-size: 1.8rem;
+      letter-spacing: 3px;
+    }
+
+    .site-header .custom-logo {
+      max-height: 180px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .site-header .hero-content {
+      padding: 40px 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .site-header .site-title {
+      font-size: 1.4rem;
       letter-spacing: 1px;
     }
-    .site-header .main-navigation ul {
-      gap: 0.75rem;
+    
+    .site-header .site-description {
+      font-size: 14px;
     }
-    .site-header .main-navigation a {
-      font-size: 11px;
-    }
+
     .site-header .hero-section {
       min-height: 350px;
     }
   }
 </style>
+
