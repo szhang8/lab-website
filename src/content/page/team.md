@@ -9,9 +9,7 @@ description: ''
   "We are a group of curious, sometimes naive individuals, who want to run their research projects - you can call it "little entrepreneurial exercise" - no matter how nebulous or how ambitious it sounds at the beginning."
 </p>
 
-<p class="has-cyan-bluish-gray-color has-text-color" style="font-size:18px; font-style: italic;">
-  "We mix 10kg of passion, then add 5000 spatulas full of hard work. We heat our portion with a warmth of confidence and run the mixture in a perseverance gel. We stain for patience and resilience in a buffer full of success! We see the bands and marks of million of accomplishments shining strong under the light of learning. We transfer our knowledge portion into marks of aspiration of excellence which show today and tomorrow all the way."
-</p>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"opacity":"css"} -->
