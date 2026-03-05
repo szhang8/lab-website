@@ -113,6 +113,17 @@ a.button:hover {
   color: #ffffff !important;
 }
 
+/* WordPress Drop Cap Port */
+.has-drop-cap::first-letter {
+  font-size: 5.5rem;          
+  float: left;                
+  line-height: 0.8;           
+  margin-right: 0.15em;       
+  margin-bottom: 0.1em;
+  color: #92a4b0;             /* Cyan bluish-gray */
+  font-family: var(--font-main); 
+}
+
 /* Prose / Markdown Styling */
 .prose {
   max-width: 800px;
