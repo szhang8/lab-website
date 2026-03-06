@@ -48,15 +48,20 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
     
     <aside class="sidebar">
       <div class="widget">
-        <h2 class="widget-title">Twitter / X</h2>
-        <a class="twitter-timeline"
-           data-tweet-limit="3"
-           data-chrome="noheader nofooter noborders transparent"
-           data-dnt="true"
-           href="https://twitter.com/SZhang_Lab?ref_src=twsrc%5Etfw">Tweets by SZhang_Lab</a>
-        <script is:inline async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <p class="twitter-follow">
-          <a href="https://twitter.com/SZhang_Lab" target="_blank" rel="noopener noreferrer">Follow @SZhang_Lab →</a>
+        <h2 class="widget-title">Bluesky Feed</h2>
+        
+        <!-- Bluesky Embed Component -->
+        <bsky-embed
+          username="s-zhang-lab.bsky.social"
+          limit="3"
+          mode="light">
+        </bsky-embed>
+        
+        <!-- Required Script for the bsky-embed component -->
+        <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+        
+        <p class="twitter-follow" style="margin-top: 15px;">
+          <a href="https://bsky.app/profile/s-zhang-lab.bsky.social" target="_blank" rel="noopener noreferrer">Follow @s-zhang-lab on Bluesky →</a>
         </p>
       </div>
     </aside>
