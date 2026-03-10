@@ -1,0 +1,173 @@
+---
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+const { isHome = false } = Astro.props;
+---
+
+<header class={`navbar ${isHome ? 'is-home-header' : 'scrolled'}`} id="main-header" transition:persist>
+  <div class="container nav-wrapper">
+    <div class="logo">
+      <a href={base} class="logo-link">
+        <span class="header-logo-text">S.ZHANG <span class="light">LAB</span></span>
+      </a>
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="main-nav">
+      <ul id="primary-menu">
+        <li><a href={`${base}research/`}>Research</a></li>
+        <li><a href={`${base}team/`}>Team</a></li>
+        <li><a href={`${base}publications/`}>Publications</a></li>
+        <li><a href={`${base}lab-arts/`}>Lab Arts</a></li>
+        <li><a href={`${base}teaching/`}>Mentoring</a></li>
+        <li><a href={`${base}blog/`}>Journal</a></li>
+        <li><a href={`${base}contact-us/`} class="nav-cta">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    const header = document.getElementById('main-header');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mainNav = document.querySelector('.main-nav');
+    
+    // Mobile Menu
+    menuToggle?.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      mainNav?.classList.toggle('active');
+    });
+
+    // Dynamic Header Scroll Effect
+    if (header && header.classList.contains('is-home-header')) {
+      const handleScroll = () => {
+        if (window.scrollY > 100) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      };
+      window.addEventListener('scroll', handleScroll);
+      // Run once in case already scrolled
+      handleScroll();
+    }
+  }
+
+  // Initial load
+  initHeader();
+  // Handle view transitions
+  document.addEventListener('astro:page-load', initHeader);
+</script>
+
+<style>
+  .navbar {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
+    z-index: 1000;
+    padding: 25px 0;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .navbar.scrolled {
+    padding: 12px 0;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .header-logo-text {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--text-main);
+    transition: var(--transition);
+  }
+
+  .header-logo-text .light {
+    font-weight: 300;
+    opacity: 0.7;
+  }
+
+  .is-home-header:not(.scrolled) .header-logo-text {
+    color: white;
+  }
+
+  .main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.2rem;
+    align-items: center;
+  }
+
+  .main-nav a {
+    text-decoration: none;
+    color: var(--text-main); 
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    transition: var(--transition);
+  }
+
+  .is-home-header:not(.scrolled) .main-nav a {
+    color: white;
+  }
+
+  .main-nav a:hover {
+    color: var(--accent-muted) !important;
+  }
+
+  .nav-cta {
+    padding: 8px 18px;
+    border: 1px solid var(--border-light);
+    border-radius: 1px;
+  }
+
+  .is-home-header:not(.scrolled) .nav-cta {
+    border-color: rgba(255,255,255,0.4);
+    color: white;
+  }
+
+  /* Mobile */
+  .menu-toggle { display: none; background: none; border: none; cursor: pointer; }
+  .hamburger {
+    display: block; width: 22px; height: 1px; background: var(--text-main); position: relative;
+  }
+  .is-home-header:not(.scrolled) .hamburger { background: white; }
+  
+  .hamburger::before, .hamburger::after {
+    content: ''; position: absolute; width: 22px; height: 1px; background: inherit; left: 0;
+  }
+  .hamburger::before { top: -7px; }
+  .hamburger::after { bottom: 7px; }
+
+  @media (max-width: 992px) {
+    .menu-toggle { display: block; }
+    .main-nav {
+      position: fixed; top: 0; right: -100%; width: 100%; height: 100vh;
+      background: white; transition: 0.4s ease;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .main-nav.active { right: 0; }
+    .main-nav ul { flex-direction: column; }
+    .main-nav a { color: var(--text-main) !important; font-size: 1.1rem; }
+  }
+</style>

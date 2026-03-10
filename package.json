@@ -1,0 +1,14 @@
+{
+  "name": "users-s208205-library-cloudstorage-box-box-s-zhang-lab-utsw-lab-website-new-astro-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.17.1"
+  }
+}

@@ -1,0 +1,49 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import PageHeader from '../components/PageHeader.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('page');
+  return pages.map(page => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+
+// Generate a subtitle based on the slug for a more editorial feel
+const subtitles: Record<string, string> = {
+  'research': 'Exploring the co-evolution of tumors and their microenvironment.',
+  'team': 'The interdisciplinary researchers of the Zhang Laboratory.',
+  'publications': 'Academic contributions to cancer biology and neuroscience.',
+  'lab-arts': 'Capturing the aesthetic beauty of molecular discovery.',
+  'contact-us': 'Get in touch with our lab at UT Southwestern.',
+  'teaching': 'Mentoring the next generation of translational scientists.',
+  'current-project': 'Active investigations into metastatic adaptation.',
+  'graduate-courses': 'Advanced studies in cancer biology and system biology.',
+  'undergraduate-courses': 'Foundation courses in molecular genetics and biology.'
+};
+
+const subtitle = subtitles[page.slug] || '';
+---
+
+<Layout title={page.data.title}>
+  <PageHeader title={page.data.title} subtitle={subtitle} />
+  
+  <div class="site-main container">
+    <article class="page-content">
+      <div class="prose reveal">
+        <Content />
+      </div>
+    </article>
+  </div>
+</Layout>
+
+<style>
+  .site-main {
+    padding-bottom: 120px;
+  }
+</style>

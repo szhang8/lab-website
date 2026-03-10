@@ -1,0 +1,67 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+}
+
+const { title, subtitle } = Astro.props;
+---
+
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content reveal active">
+      <h1 class="page-hero-title serif-text" transition:name="page-title">{title}</h1>
+      {subtitle && <p class="page-hero-subtitle">{subtitle}</p>}
+      <div class="header-line"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .page-hero {
+    padding: 140px 0 20px 0; /* Reduced top padding, very minimal bottom */
+    background-color: var(--bg-nordic);
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 40px; /* Reduced margin to content */
+    text-align: center;
+  }
+
+  .page-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .page-hero-title {
+    font-size: 2.8rem;
+    color: var(--text-main);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .page-hero-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-family: var(--font-ui); /* Clean sans-serif */
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .header-line {
+    width: 30px;
+    height: 1px;
+    background-color: var(--accent-muted);
+    margin: 2rem auto 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .page-hero { padding: 100px 0 20px 0; }
+    .page-hero-title { font-size: 2rem; }
+    .page-hero-subtitle { font-size: 0.8rem; }
+  }
+</style>

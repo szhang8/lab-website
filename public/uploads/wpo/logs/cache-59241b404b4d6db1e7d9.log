@@ -1,0 +1,65 @@
+[2025-02-09 15:39:36 : INFO] - Cache for URL: https://www.curiosityrover.org/?p=1261 has been purged, triggered by action: save_post 
+[2025-02-09 15:39:36 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Auto Draft" and URL: https://www.curiosityrover.org/?p=1261, triggered by action: save_post 
+[2025-02-09 15:39:36 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2024/08/04/why-am-i-opposing-the-idea-of-working-from-home-a-note-to-s-zhang-team/) adjacent to post with id: 1261 has been purged, triggered by action: save_post 
+[2025-02-09 15:39:36 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-02-14 14:07:59 : INFO] - Cache for URL: https://www.curiosityrover.org/?p=1262 has been purged, triggered by action: save_post 
+[2025-02-14 14:07:59 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Auto Draft" and URL: https://www.curiosityrover.org/?p=1262, triggered by action: save_post 
+[2025-02-14 14:07:59 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2024/08/04/why-am-i-opposing-the-idea-of-working-from-home-a-note-to-s-zhang-team/) adjacent to post with id: 1262 has been purged, triggered by action: save_post 
+[2025-02-14 14:07:59 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-02-14 14:10:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-02-14 14:10:18 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/ has been purged, triggered by action: save_post 
+[2025-02-14 14:10:18 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Chinese New Year Party :)" and URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/, triggered by action: save_post 
+[2025-02-14 14:10:18 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2024/08/04/why-am-i-opposing-the-idea-of-working-from-home-a-note-to-s-zhang-team/) adjacent to post with id: 1262 has been purged, triggered by action: save_post 
+[2025-02-14 14:10:18 : INFO] - Cache for all archives page associated with post_type: post and Title: "Chinese New Year Party :)" have been purged, triggered by action: save_post 
+[2025-02-14 14:10:18 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-02-14 14:10:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-02-14 14:10:20 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/ has been purged, triggered by action: save_post 
+[2025-02-14 14:10:20 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Chinese New Year Party :)" and URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/, triggered by action: save_post 
+[2025-02-14 14:10:20 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2024/08/04/why-am-i-opposing-the-idea-of-working-from-home-a-note-to-s-zhang-team/) adjacent to post with id: 1262 has been purged, triggered by action: save_post 
+[2025-02-14 14:10:20 : INFO] - Cache for all archives page associated with post_type: post and Title: "Chinese New Year Party :)" have been purged, triggered by action: save_post 
+[2025-02-14 14:15:04 : INFO] - Cache for URL: https://www.curiosityrover.org/publications/ has been purged, triggered by action: save_post 
+[2025-02-14 14:15:05 : INFO] - Cache for URL: https://www.curiosityrover.org/publications/ has been purged, triggered by action: save_post 
+[2025-02-14 14:24:18 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:24:19 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:24:53 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:24:54 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:25:08 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:25:09 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:26:44 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-02-14 14:26:46 : INFO] - Cache for URL: https://www.curiosityrover.org/team/ has been purged, triggered by action: save_post 
+[2025-04-25 23:55:49 : INFO] - Cache for URL: https://www.curiosityrover.org/?p=1274 has been purged, triggered by action: save_post 
+[2025-04-25 23:55:49 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Auto Draft" and URL: https://www.curiosityrover.org/?p=1274, triggered by action: save_post 
+[2025-04-25 23:55:49 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1274 has been purged, triggered by action: save_post 
+[2025-04-25 23:55:49 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-04-26 00:02:26 : INFO] - Cache for URL: https://www.curiosityrover.org/publications/ has been purged, triggered by action: save_post 
+[2025-04-26 00:02:27 : INFO] - Cache for URL: https://www.curiosityrover.org/publications/ has been purged, triggered by action: save_post 
+[2025-05-27 01:31:04 : INFO] - Cache for URL: https://www.curiosityrover.org/?p=1277 has been purged, triggered by action: save_post 
+[2025-05-27 01:31:04 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Auto Draft" and URL: https://www.curiosityrover.org/?p=1277, triggered by action: save_post 
+[2025-05-27 01:31:04 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1277 has been purged, triggered by action: save_post 
+[2025-05-27 01:31:04 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-05-27 01:31:35 : INFO] - Cache for URL: https://www.curiosityrover.org/?p=1278 has been purged, triggered by action: save_post 
+[2025-05-27 01:31:35 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Auto Draft" and URL: https://www.curiosityrover.org/?p=1278, triggered by action: save_post 
+[2025-05-27 01:31:35 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1278 has been purged, triggered by action: save_post 
+[2025-05-27 01:31:35 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-05-27 01:49:02 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:49:03 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/ has been purged, triggered by action: save_post 
+[2025-05-27 01:49:03 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" and URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/, triggered by action: save_post 
+[2025-05-27 01:49:03 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1278 has been purged, triggered by action: save_post 
+[2025-05-27 01:49:03 : INFO] - Cache for all archives page associated with post_type: post and Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" have been purged, triggered by action: save_post 
+[2025-05-27 01:49:03 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:49:04 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:49:04 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/ has been purged, triggered by action: save_post 
+[2025-05-27 01:49:04 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" and URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/, triggered by action: save_post 
+[2025-05-27 01:49:04 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1278 has been purged, triggered by action: save_post 
+[2025-05-27 01:49:04 : INFO] - Cache for all archives page associated with post_type: post and Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" have been purged, triggered by action: save_post 
+[2025-05-27 01:50:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:50:21 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/ has been purged, triggered by action: save_post 
+[2025-05-27 01:50:21 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" and URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/, triggered by action: save_post 
+[2025-05-27 01:50:21 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1278 has been purged, triggered by action: save_post 
+[2025-05-27 01:50:21 : INFO] - Cache for all archives page associated with post_type: post and Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" have been purged, triggered by action: save_post 
+[2025-05-27 01:50:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:50:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-27 01:50:23 : INFO] - Cache for URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/ has been purged, triggered by action: save_post 
+[2025-05-27 01:50:23 : INFO] - Cache for blog post has been purged due to updates to post with Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" and URL: https://www.curiosityrover.org/2025/05/26/congratulations-dr-samantha-golomb-ph-d/, triggered by action: save_post 
+[2025-05-27 01:50:23 : INFO] - Cache for previous post (with URL: https://www.curiosityrover.org/2025/02/14/chinese-new-year-party/) adjacent to post with id: 1278 has been purged, triggered by action: save_post 
+[2025-05-27 01:50:23 : INFO] - Cache for all archives page associated with post_type: post and Title: "Congratulations Dr. Samantha Golomb Ph.D.!!!" have been purged, triggered by action: save_post 

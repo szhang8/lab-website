@@ -1,0 +1,109 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import { ClientRouter } from 'astro:transitions';
+
+interface Props {
+  title: string;
+  isHome?: boolean;
+}
+
+const { title, isHome = false } = Astro.props;
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="S.Zhang Laboratory @ UTSW" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href={`${base}uploads/2018/12/favicon.png`} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} | S.Zhang Laboratory</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <Header isHome={isHome} />
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-info">
+          <span class="footer-logo serif-text">S.ZHANG <span class="light">LAB</span></span>
+          <p>UT Southwestern Medical Center<br/>Dallas, Texas</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; {new Date().getFullYear()} — Deciphering the Architecture of Life.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Global Reveal Animation Logic
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      function observeReveals() {
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+      }
+
+      // Initial run
+      observeReveals();
+      
+      // Handle view transitions
+      document.addEventListener('astro:after-swap', observeReveals);
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  main#content {
+    min-height: 80vh;
+  }
+  
+  :has(.hero) main#content {
+    padding-top: 0;
+  }
+
+  main#content {
+    padding-top: 100px;
+  }
+
+  .site-footer {
+    padding: 80px 0;
+    border-top: 1px solid var(--border-light);
+    background-color: var(--bg-nordic);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--text-main);
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  .footer-logo .light { font-weight: 300; opacity: 0.6; }
+
+  @media (max-width: 768px) {
+    .footer-content { flex-direction: column; align-items: flex-start; gap: 2rem; }
+  }
+</style>
