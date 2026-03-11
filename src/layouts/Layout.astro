@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import { ClientRouter } from 'astro:transitions';
+import { SEO } from "astro-seo";
 
 interface Props {
   title: string;
@@ -11,17 +12,46 @@ interface Props {
 const { title, isHome = false } = Astro.props;
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
+
+const siteUrl = "https://www.curiosityrover.org";
+const description = "The S.Zhang Laboratory at UT Southwestern Medical Center. Investigating tumor evolution, metastasis, and the microenvironment using single-cell genomics and high-definition imaging.";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="S.Zhang Laboratory @ UTSW" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href={`${base}uploads/2018/12/favicon.png`} />
     <meta name="generator" content={Astro.generator} />
-    <title>{title} | S.Zhang Laboratory</title>
+    
+    <SEO
+      title={`${title} | S.Zhang Laboratory`}
+      description={description}
+      canonical={siteUrl}
+      openGraph={{
+        basic: {
+          title: `${title} | S.Zhang Laboratory`,
+          type: "website",
+          image: `${siteUrl}/uploads/2018/12/Evolving-Minds-2.png`,
+        },
+        optional: {
+          description: description,
+          siteName: "S.Zhang Laboratory",
+        }
+      }}
+      twitter={{
+        creator: "@S_Zhang_Lab",
+        card: "summary_large_image",
+        site: "@S_Zhang_Lab",
+        title: `${title} | S.Zhang Laboratory`,
+        description: description,
+        image: `${siteUrl}/uploads/2018/12/Evolving-Minds-2.png`,
+      }}
+    />
+
+    <!-- Analytics Placeholder: Add your Umami or GA4 script here -->
+    
     <ClientRouter />
   </head>
   <body>
@@ -47,21 +77,17 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('active');
-            // Once revealed, no need to observe anymore
             revealObserver.unobserve(entry.target);
           }
         });
       }, { 
         threshold: 0.05,
-        rootMargin: '50px' // Start revealing slightly before they enter the viewport
+        rootMargin: '50px'
       });
 
       function observeReveals() {
-        // Find all reveal elements
         const elements = document.querySelectorAll('.reveal');
-        
         elements.forEach(el => {
-          // Check if it's already in viewport or very close to top
           const rect = el.getBoundingClientRect();
           if (rect.top < window.innerHeight) {
             el.classList.add('active');
@@ -71,7 +97,6 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         });
       }
 
-      // Bluesky Embed Loader
       function initSocial() {
         if (document.querySelector('bsky-embed') && !document.querySelector('script[src*="bsky-embed"]')) {
           const script = document.createElement('script');
@@ -82,11 +107,9 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         }
       }
 
-      // Run on initial load
       observeReveals();
       initSocial();
       
-      // Handle view transitions
       document.addEventListener('astro:page-load', () => {
         observeReveals();
         initSocial();
