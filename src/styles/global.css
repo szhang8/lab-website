@@ -181,17 +181,24 @@ a {
 }
 .prose p { margin-bottom: 2.5rem; }
 .prose img:not(.gallery-item img) { 
+  display: block;
   max-width: 100%; 
   height: auto !important;
   border-radius: 2px; 
-  margin: 3rem 0; 
+  margin: 3rem auto; 
+}
+
+.prose iframe {
+  display: block;
+  margin: 3rem auto;
+  max-width: 100%;
 }
 
 /* Slogan Callout Style */
 .motto-callout {
   text-align: center;
-  margin: 5rem 0;
-  padding: 3rem 0;
+  margin: 3rem 0;
+  padding: 2rem 0;
   border-top: 1px solid var(--border-light);
   border-bottom: 1px solid var(--border-light);
   position: relative;
