@@ -137,15 +137,17 @@ const { isHome = false } = Astro.props;
     text-decoration: none;
     color: var(--text-main); 
     font-family: var(--font-serif);
-    font-size: 0.85rem;
+    font-size: 0.95rem; /* Increased from 0.85rem */
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.12em;
     transition: var(--transition);
   }
 
   .is-home-header:not(.scrolled) .main-nav a {
     color: white;
+    font-size: 1.05rem; /* Even bigger on the landing hero */
+    font-weight: 400;
   }
 
   .main-nav a:hover {
