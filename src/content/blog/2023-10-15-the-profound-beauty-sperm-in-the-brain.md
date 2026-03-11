@@ -13,7 +13,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I have always been fascinated by the artistry of mother nature - from the vastness of blue whales in the ocean to the microscopic intricacies of single cells, the stories of evolution, adaptation, and the sheer drive to survive are everywhere. From time to time, we come across something so unexpectedly beautiful in our observations that it's so mesmerizing to watch and makes us feel like we've entered the dream of Alice in Wonderland.</p>
+<p>I have always been fascinated by the artistry of Mother Nature—from the vastness of blue whales in the ocean to the microscopic intricacies of single cells, the stories of evolution, adaptation, and the sheer drive to survive are everywhere. From time to time, we come across something so unexpectedly beautiful in our observations that it is mesmerizing to watch and makes us feel like we've entered the dream of Alice in Wonderland.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -25,9 +25,9 @@ tags:
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>While the elegance of this biological structure was breathtaking, this unique form isn't just about its appearance, though. The intricate internal structures of the tumor resembled the complex, specialized compartments and cell-cell coordination. Nature seems to use its artistry to tell us about the intricate biology of how tumor cells manage to adapt and navigate the extracellular tumor microenvironment, which in turn, sculpted its form.</p>
+<p>While the elegance of this biological structure was breathtaking, this unique form isn't just about its appearance. The intricate internal structures of the tumor resembled complex, specialized compartments and cell-cell coordination. Nature seems to use its artistry to tell us about the intricate biology of how tumor cells manage to adapt and navigate the extracellular tumor microenvironment, which in turn sculpted its form.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The moment of appreciation of the beauty of biology reminds us how we are privileged to be able to dive into nature's artistry at the cellular level. Biology never ceases to amaze me with its ability to resolve into unintentional and accidental beauty.</p>
+<p>The moment of appreciation for the beauty of biology reminds us how privileged we are to be able to dive into nature's artistry at the cellular level. Biology never ceases to amaze me with its ability to resolve into unintentional and accidental beauty.</p>
 <!-- /wp:paragraph -->

@@ -1,5 +1,5 @@
 ---
-title: "Why Am I Opposing the Idea of Working from Home? - a note to S.Zhang.Team"
+title: "Why Am I Opposed to Working from Home? - A Note to S.Zhang.Team"
 pubDate: '2024-08-04'
 description: ''
 tags:
