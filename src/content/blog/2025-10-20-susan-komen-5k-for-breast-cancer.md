@@ -25,6 +25,16 @@ tags:
     </a>
   </div>
   <div class="gallery-item">
+    <a href="/uploads/2025/10/IMG_7259.jpeg" target="_blank">
+      <img src="/uploads/2025/10/IMG_7259.jpeg" alt="Walk participants" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="/uploads/2025/10/IMG_7262.jpeg" target="_blank">
+      <img src="/uploads/2025/10/IMG_7262.jpeg" alt="Team smile" loading="lazy" />
+    </a>
+  </div>
+  <div class="gallery-item">
     <a href="/uploads/2025/10/IMG_7266-1-1024x794.jpeg" target="_blank">
       <img src="/uploads/2025/10/IMG_7266-1-1024x794.jpeg" alt="Team photo" loading="lazy" />
     </a>
