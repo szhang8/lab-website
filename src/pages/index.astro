@@ -123,19 +123,10 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
         slides[cur]?.classList.add('active');
       }, 6000);
       
-      // Cleanup on page navigation
+      // 2. Cleanup on page navigation
       document.addEventListener('astro:before-preparation', () => clearInterval(interval), { once: true });
-    }
-
-    // 2. Re-initialize Bluesky script if needed
-    if (!document.querySelector('script[src*="bsky-embed"]')) {
-      const script = document.createElement('script');
-      script.type = 'module';
-      script.src = 'https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js';
-      script.async = true;
-      document.head.appendChild(script);
-    }
-  }
+      }
+      }
 
   // Initial load
   initHome();

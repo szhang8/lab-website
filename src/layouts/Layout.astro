@@ -47,19 +47,50 @@ const base = rawBase.endsWith('/') ? rawBase : rawBase + '/';
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('active');
+            // Once revealed, no need to observe anymore
+            revealObserver.unobserve(entry.target);
           }
         });
-      }, { threshold: 0.1 });
+      }, { 
+        threshold: 0.05,
+        rootMargin: '50px' // Start revealing slightly before they enter the viewport
+      });
 
       function observeReveals() {
-        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+        // Find all reveal elements
+        const elements = document.querySelectorAll('.reveal');
+        
+        elements.forEach(el => {
+          // Check if it's already in viewport or very close to top
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight) {
+            el.classList.add('active');
+          } else {
+            revealObserver.observe(el);
+          }
+        });
       }
 
-      // Initial run
+      // Bluesky Embed Loader
+      function initSocial() {
+        if (document.querySelector('bsky-embed') && !document.querySelector('script[src*="bsky-embed"]')) {
+          const script = document.createElement('script');
+          script.type = 'module';
+          script.src = 'https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js';
+          script.async = true;
+          document.head.appendChild(script);
+        }
+      }
+
+      // Run on initial load
       observeReveals();
+      initSocial();
       
       // Handle view transitions
-      document.addEventListener('astro:after-swap', observeReveals);
+      document.addEventListener('astro:page-load', () => {
+        observeReveals();
+        initSocial();
+      });
     </script>
   </body>
 </html>
