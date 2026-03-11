@@ -187,6 +187,33 @@ a {
   margin: 3rem 0; 
 }
 
+/* Slogan Callout Style */
+.motto-callout {
+  text-align: center;
+  margin: 5rem 0;
+  padding: 3rem 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  position: relative;
+}
+
+.motto-text {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--text-main);
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.motto-accent {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: var(--accent-muted);
+  margin: 1.5rem auto 0 auto;
+}
+
 /* Responsive Overrides */
 @media (max-width: 768px) {
   .container {

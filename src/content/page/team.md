@@ -10,13 +10,10 @@ description: ''
 </p>
 <!-- /wp:paragraph -->
 
-<hr class="wp-block-separator has-css-opacity"/>
-
-<h1 class="wp-block-heading has-text-align-center" id="learning-is-our-motto"><strong>Learning is our motto!</strong></h1>
-
-<hr class="wp-block-separator has-css-opacity"/>
-
-<br />
+<div class="motto-callout reveal">
+  <p class="motto-text">Learning is our motto!</p>
+  <span class="motto-accent"></span>
+</div>
 
 <ul class="wp-block-list" style="margin-top: 30px;">
 <li>Siyuan Zhang, M.D., Ph.D., Lab Head & Cheerleader, <a href="mailto:Siyuan.Zhang@UTSouthwestern.edu">Siyuan.Zhang@UTSouthwestern.edu</a></li>
