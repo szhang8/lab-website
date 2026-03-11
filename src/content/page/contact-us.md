@@ -6,7 +6,7 @@ description: ''
 
 <div class="contact-wrapper">
   <div class="contact-text">
-    <p>Hi There, We are always looking forward to hearing from you. We are recruiting! See the <a href="/uploads/2023/01/S.ZhangLab_OpenPositions_UTSW-1.pdf">position Ads here</a>. If you are interested in our research or want to join us, please feel free to get in touch via email or follow our social updates.</p>
+    <p>We are always looking forward to hearing from you. Our lab is actively recruiting! Please see our <a href="/uploads/2023/01/S.ZhangLab_OpenPositions_UTSW-1.pdf">open positions here</a>. If you are interested in our research or would like to join the team, please feel free to get in touch via email or follow our social updates.</p>
     
     <div class="social-links" style="margin: 2rem 0;">
       <p><strong>Email:</strong> <a href="mailto:Siyuan.Zhang@UTSouthwestern.edu">Siyuan.Zhang@UTSouthwestern.edu</a></p>
