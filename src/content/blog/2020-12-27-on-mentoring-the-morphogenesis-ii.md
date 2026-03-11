@@ -8,7 +8,7 @@ tags:
 ---
 
 <!-- wp:image {"id":899,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/12/Gem-1024x271.png" alt="" class="wp-image-899"/></figure>
+<figure class="wp-block-image size-large"><img src="/uploads/2020/12/Gem-1024x271.png" alt="" class="wp-image-899"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

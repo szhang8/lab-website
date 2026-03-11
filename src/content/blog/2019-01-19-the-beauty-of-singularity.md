@@ -12,7 +12,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":377,"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.curiosityrover.org/wp-content/uploads/2019/01/img_1409-1024x768.jpg" alt="Breckenridge, CO" class="wp-image-377"/><figcaption>Breckenridge Ski Resort, Colorado. The early morning outlook from the <a href="https://www.beaverrun.com/">Beaver Run Resort.</a></figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/uploads/2019/01/img_1409-1024x768.jpg" alt="Breckenridge, CO" class="wp-image-377"/><figcaption>Breckenridge Ski Resort, Colorado. The early morning outlook from the <a href="https://www.beaverrun.com/">Beaver Run Resort.</a></figcaption></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -28,7 +28,7 @@ tags:
 <!-- /wp:list -->
 
 <!-- wp:image {"id":384} -->
-<figure class="wp-block-image"><img src="https://www.curiosityrover.org/wp-content/uploads/2019/01/Brain-smoothie.png" alt="" class="wp-image-384"/></figure>
+<figure class="wp-block-image"><img src="/uploads/2019/01/Brain-smoothie.png" alt="" class="wp-image-384"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -40,7 +40,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":388,"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.curiosityrover.org/wp-content/uploads/2019/01/timing.png" alt="" class="wp-image-388"/><figcaption>The current single cell RNA-seq data give us a series of "snapshots" over the time</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/uploads/2019/01/timing.png" alt="" class="wp-image-388"/><figcaption>The current single cell RNA-seq data give us a series of "snapshots" over the time</figcaption></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

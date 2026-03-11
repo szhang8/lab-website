@@ -180,5 +180,39 @@ a {
   padding-bottom: 1rem; 
 }
 .prose p { margin-bottom: 2.5rem; }
-.prose img:not(.gallery-item img) { width: 100%; border-radius: 2px; margin: 3rem 0; }
+.prose img:not(.gallery-item img) { 
+  max-width: 100%; 
+  height: auto !important;
+  border-radius: 2px; 
+  margin: 3rem 0; 
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .prose {
+    font-size: 1.1rem; /* Slightly larger base font for readability */
+    max-width: 100%;
+  }
+
+  .prose p {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Force responsive images even if they have hardcoded widths from WordPress */
+  .wp-block-image, .wp-block-image figure, .is-resized {
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .wp-block-image img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 

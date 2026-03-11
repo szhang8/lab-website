@@ -64,12 +64,12 @@ description: ''
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>You! </strong>- We are recruiting. See the <strong><a href="https://www.curiosityrover.org/wp-content/uploads/2023/01/S.ZhangLab_OpenPositions_UTSW-1.pdf">position ads here. </a></strong></li>
+<li><strong>You! </strong>- We are recruiting. See the <strong><a href="/uploads/2023/01/S.ZhangLab_OpenPositions_UTSW-1.pdf">position ads here. </a></strong></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:image {"id":1268,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.curiosityrover.org/wp-content/uploads/2025/02/Screenshot-2025-02-14-at-8.22.14 AM.png" alt="" class="wp-image-1268"/></figure>
+<figure class="wp-block-image size-full"><img src="/uploads/2025/02/Screenshot-2025-02-14-at-8.22.14%E2%80%AFAM.png" alt="" class="wp-image-1268"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
@@ -127,9 +127,9 @@ description: ''
 <!-- /wp:list -->
 
 <!-- wp:image {"id":1114,"width":"637px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="https://www.curiosityrover.org/wp-content/uploads/2022/08/Lab-photo-2022-1.png" alt="" class="wp-image-1114" style="width:637px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="/uploads/2022/08/Lab-photo-2022-1.png" alt="" class="wp-image-1114" style="width:637px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":815,"sizeSlug":"large","className":"is-resized"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://www.curiosityrover.org/wp-content/uploads/2020/10/lab-photo-2020-1-956x1024.png" alt="" class="wp-image-815"/></figure>
+<figure class="wp-block-image size-large is-resized"><img src="/uploads/2020/10/lab-photo-2020-1-956x1024.png" alt="" class="wp-image-815"/></figure>
 <!-- /wp:image -->

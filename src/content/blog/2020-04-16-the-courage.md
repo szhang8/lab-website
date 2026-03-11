@@ -16,5 +16,5 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":727,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://i1.wp.com/www.curiosityrover.org/wp-content/uploads/2020/04/Screen-Shot-2020-04-16-at-12.00.11-PM.png?fit=640%2C329&amp;ssl=1" alt="" class="wp-image-727"/></figure>
+<figure class="wp-block-image size-large"><img src="/uploads/2020/04/Screen-Shot-2020-04-16-at-12.00.11-PM.png%3Ffit%3D640%252C329%26amp%3Bssl%3D1" alt="" class="wp-image-727"/></figure>
 <!-- /wp:image -->

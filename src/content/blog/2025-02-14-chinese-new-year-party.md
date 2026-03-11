@@ -8,5 +8,5 @@ tags:
 ---
 
 <!-- wp:image {"id":1263,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="https://www.curiosityrover.org/wp-content/uploads/2025/02/Chinese-New-year.png" alt="" class="wp-image-1263"/></figure>
+<figure class="wp-block-image size-full"><img src="/uploads/2025/02/Chinese-New-year.png" alt="" class="wp-image-1263"/></figure>
 <!-- /wp:image -->

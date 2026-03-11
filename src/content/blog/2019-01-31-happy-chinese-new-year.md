@@ -12,5 +12,5 @@ tags:
 <!-- /wp:gutenbee/countdown -->
 
 <!-- wp:image {"id":426,"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://i1.wp.com/www.curiosityrover.org/wp-content/uploads/2019/01/The-year-of-big.png?fit=640%2C478&amp;ssl=1" alt="" class="wp-image-426"/></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/uploads/2019/01/The-year-of-big.png%3Ffit%3D640%252C478%26amp%3Bssl%3D1" alt="" class="wp-image-426"/></figure></div>
 <!-- /wp:image -->

@@ -13,7 +13,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1004,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.curiosityrover.org/wp-content/uploads/2022/05/New-lab-map-1024x811.png" alt="" class="wp-image-1004"/></figure>
+<figure class="wp-block-image size-large"><img src="/uploads/2022/05/New-lab-map-1024x811.png" alt="" class="wp-image-1004"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

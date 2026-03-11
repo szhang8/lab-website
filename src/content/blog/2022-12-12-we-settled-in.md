@@ -22,5 +22,5 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1130,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.curiosityrover.org/wp-content/uploads/2022/12/Screenshot-2022-12-12-at-6.33.28-PM-1024x742.png" alt="" class="wp-image-1130"/></figure>
+<figure class="wp-block-image size-large"><img src="/uploads/2022/12/Screenshot-2022-12-12-at-6.33.28-PM-1024x742.png" alt="" class="wp-image-1130"/></figure>
 <!-- /wp:image -->

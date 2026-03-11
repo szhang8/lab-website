@@ -13,7 +13,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":943,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://www.curiosityrover.org/wp-content/uploads/2021/05/Graduation-1024x755.png" alt="" class="wp-image-943"/></figure>
+<figure class="wp-block-image size-large"><img src="/uploads/2021/05/Graduation-1024x755.png" alt="" class="wp-image-943"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:embed {"url":"https://youtu.be/tgGd2OailOA","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->

@@ -16,13 +16,13 @@ description: ''
 
 <p>As a translational cancer biology laboratory, we integrate multidisciplinary, innovative approaches, including <strong>cancer biology, neuroscience, bioengineering, and computer sciences</strong>, to investigate the dynamic interactions between the tumor and its tumor microenvironment. We use genetic animal tumor models to model the clinical scenarios, examine molecular underpinnings, and conduct rationally designed pre-clinical tests of novel combinatorial anti-cancer therapies to overcome drug resistance and prevent/treat tumor metastasis.</p>
 
-<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://www.curiosityrover.org/wp-content/uploads/2022/05/approaches-1024x403.png" alt="" class="wp-image-1067" style="width:768px;height:302px"/></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="/uploads/2022/05/approaches-1024x403.png" alt="" class="wp-image-1067" style="width:768px;height:302px"/></figure>
 
 <h4 id="theme-1" class="wp-block-heading">Research Theme #1 - Define and track the evolving tumor heterogeneity using single cell analysis</h4>
 
 <p>Tumor is an extremely heterogeneous entity. Tumor and its microenvironment are an intricate co-evolving ecosystem. The constant interplay between the tumor and the tumor microenvironment (TME) dictates tumor initiation, progression, and metastasis. The TME, including the primary tumor milieu and the secondary metastatic niche, is a highly dynamic, but spatially restrained co-opted by tumor cells for immune evasion and metastatic outgrowth. A mechanistic understanding of the multifactorial TME is essential for the development of precision anti-cancer treatments. Our lab focuses on resolving the spatial and cellular heterogeneity of the TME and how the interplay between primary tumor cells and TME provokes drug resistance and metastasis. </p>
 
-<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://www.curiosityrover.org/wp-content/uploads/2022/05/TME-2-1024x600.png" alt="" class="wp-image-1049" style="width:768px;height:450px"/></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="/uploads/2022/05/TME-2-1024x600.png" alt="" class="wp-image-1049" style="width:768px;height:450px"/></figure>
 
 <h5 class="wp-block-heading"><em><strong>How do we delineate the evolving tumor heterogeneity? </strong></em></h5>
 

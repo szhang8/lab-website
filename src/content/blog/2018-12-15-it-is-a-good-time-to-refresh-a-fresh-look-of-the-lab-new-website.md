@@ -8,7 +8,7 @@ tags:
 ---
 
 <!-- wp:gallery {"ids":[86]} -->
-<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="https://i0.wp.com/www.curiosityrover.org/wp-content/uploads/2018/12/Candy-dots.png?fit=750%2C256&amp;ssl=1" alt="" data-id="86" data-link="https://www.curiosityrover.org/?attachment_id=86" class="wp-image-86"/></figure></li></ul>
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="/uploads/2018/12/Candy-dots.png%3Ffit%3D750%252C256%26amp%3Bssl%3D1" alt="" data-id="86" data-link="https://www.curiosityrover.org/?attachment_id=86" class="wp-image-86"/></figure></li></ul>
 <!-- /wp:gallery -->
 
 <!-- wp:paragraph -->

@@ -13,5 +13,5 @@ description: ''
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":1082,"width":1024,"height":791,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://www.curiosityrover.org/wp-content/uploads/2022/05/Marsrover-way-point-1024x791.png" alt="" class="wp-image-1082" width="1024" height="791"/></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="/uploads/2022/05/Marsrover-way-point-1024x791.png" alt="" class="wp-image-1082" width="1024" height="791"/></figure>
 <!-- /wp:image -->

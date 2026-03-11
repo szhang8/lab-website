@@ -21,7 +21,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":1210,"width":"623px","height":"auto","aspectRatio":"0.8017578125","scale":"contain","sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image aligncenter size-large is-resized is-style-default"><img src="https://www.curiosityrover.org/wp-content/uploads/2023/10/BrM_Sperm -821x1024.png" alt="" class="wp-image-1210" style="aspect-ratio:0.8017578125;object-fit:contain;width:623px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-large is-resized is-style-default"><img src="/uploads/2023/10/BrM_Sperm%E2%80%AF-821x1024.png" alt="" class="wp-image-1210" style="aspect-ratio:0.8017578125;object-fit:contain;width:623px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

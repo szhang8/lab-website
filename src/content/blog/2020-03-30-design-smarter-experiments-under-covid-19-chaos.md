@@ -64,7 +64,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":669,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://i1.wp.com/www.curiosityrover.org/wp-content/uploads/2020/03/IMG_3765-2.png?fit=640%2C480&amp;ssl=1" alt="" class="wp-image-669"/></figure>
+<figure class="wp-block-image size-large"><img src="/uploads/2020/03/IMG_3765-2.png%3Ffit%3D640%252C480%26amp%3Bssl%3D1" alt="" class="wp-image-669"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

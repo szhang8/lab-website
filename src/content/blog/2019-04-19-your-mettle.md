@@ -12,7 +12,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":499} -->
-<figure class="wp-block-image"><img src="https://i0.wp.com/www.curiosityrover.org/wp-content/uploads/2019/04/Mettle.png?fit=640%2C396&amp;ssl=1" alt="" class="wp-image-499"/></figure>
+<figure class="wp-block-image"><img src="/uploads/2019/04/Mettle.png%3Ffit%3D640%252C396%26amp%3Bssl%3D1" alt="" class="wp-image-499"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

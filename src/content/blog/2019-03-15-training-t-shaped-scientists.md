@@ -20,7 +20,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":447} -->
-<figure class="wp-block-image"><img src="https://i0.wp.com/www.curiosityrover.org/wp-content/uploads/2019/03/T-type-1.png?fit=640%2C308&amp;ssl=1" alt="" class="wp-image-447"/></figure>
+<figure class="wp-block-image"><img src="/uploads/2019/03/T-type-1.png%3Ffit%3D640%252C308%26amp%3Bssl%3D1" alt="" class="wp-image-447"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -28,7 +28,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":458} -->
-<figure class="wp-block-image"><img src="https://i2.wp.com/www.curiosityrover.org/wp-content/uploads/2019/03/Screen-Shot-2019-03-17-at-10.24.59-PM.png?fit=640%2C394&amp;ssl=1" alt="" class="wp-image-458"/></figure>
+<figure class="wp-block-image"><img src="/uploads/2019/03/Screen-Shot-2019-03-17-at-10.24.59-PM.png%3Ffit%3D640%252C394%26amp%3Bssl%3D1" alt="" class="wp-image-458"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:separator -->

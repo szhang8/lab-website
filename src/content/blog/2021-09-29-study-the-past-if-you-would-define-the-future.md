@@ -12,7 +12,7 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":970,"sizeSlug":"medium","linkDestination":"none"} -->
-<div class="wp-block-image"><figure class="alignright size-medium"><img src="https://www.curiosityrover.org/wp-content/uploads/2021/09/Screen-Shot-2021-09-29-at-5.52.17-PM-222x300.png" alt="" class="wp-image-970"/></figure></div>
+<div class="wp-block-image"><figure class="alignright size-medium"><img src="/uploads/2021/09/Screen-Shot-2021-09-29-at-5.52.17-PM-222x300.png" alt="" class="wp-image-970"/></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

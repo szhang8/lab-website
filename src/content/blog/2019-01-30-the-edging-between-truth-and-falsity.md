@@ -9,7 +9,7 @@ tags:
 ---
 
 <!-- wp:image {"id":410,"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://i2.wp.com/www.curiosityrover.org/wp-content/uploads/2019/01/Screen-Shot-2019-01-28-at-11.33.02-PM.png?fit=640%2C479&amp;ssl=1" alt="" class="wp-image-410"/><figcaption>The Academy of Athens (Taken when I traveled to Athens, Dec 2018).  </figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/uploads/2019/01/Screen-Shot-2019-01-28-at-11.33.02-PM.png%3Ffit%3D640%252C479%26amp%3Bssl%3D1" alt="" class="wp-image-410"/><figcaption>The Academy of Athens (Taken when I traveled to Athens, Dec 2018).  </figcaption></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -29,5 +29,5 @@ tags:
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":412,"align":"center"} -->
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://i2.wp.com/www.curiosityrover.org/wp-content/uploads/2019/01/Screen-Shot-2019-01-28-at-11.15.48-PM.png?fit=640%2C417&amp;ssl=1" alt="" class="wp-image-412"/><figcaption>Notes from Thomas Jefferson at National Mall, Washington D.C.</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter"><img src="/uploads/2019/01/Screen-Shot-2019-01-28-at-11.15.48-PM.png%3Ffit%3D640%252C417%26amp%3Bssl%3D1" alt="" class="wp-image-412"/><figcaption>Notes from Thomas Jefferson at National Mall, Washington D.C.</figcaption></figure></div>
 <!-- /wp:image -->
