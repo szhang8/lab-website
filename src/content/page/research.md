@@ -46,7 +46,13 @@ description: ''
 
 <iframe width="750" height="450" src="https://www.youtube.com/embed/GbVjBbSH7VU" title="BrainMets Landscape" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<h3 id="theme-3" class="wp-block-heading">Research Theme #3 - Systemic factors and the pre-metastatic niche</h3>
+<h3 id="theme-3" class="wp-block-heading">Research Theme #3 - Epistatic networks and the metastatic niche</h3>
+
+<h5 class="wp-block-heading"><em><strong>Decoding how genetic networks shape metastatic fitness</strong></em></h5>
+
+<p>We have developed an innovative platform that integrates <strong>multiplexed in vivo dual-gene perturbations</strong> with <strong>single-cell transcriptomics</strong> to systematically map the epistatic networks governing metastasis. Our research demonstrates that genetic interactions are highly idiosyncratic—varying across distinct tumor subpopulations and being modulated by the local immune microenvironment. By capturing both phenotypic outcomes and underlying transcriptional states at single-cell resolution within intact tissue, we reveal how metastatic fitness emerges from higher-order genetic networks that dynamically rewire cellular plasticity programs during colonization. This framework provides a generalizable strategy for decoding how combinatorial genetic complexity shapes adaptive phenotypes in vivo, enabling the systematic interrogation of context-dependent vulnerabilities in cancer.</p>
+
+<h5 class="wp-block-heading"><em><strong>Systemic factors and the pre-metastatic niche</strong></em></h5>
 
 <p>We have broad interests in the tumor microenvironment and metastatic niche, using <strong>functional genomics</strong>, <strong>genetic mouse models</strong>, and <strong>single-cell sequencing</strong>. Key questions we are asking include:</p>
 
