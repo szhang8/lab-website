@@ -55,6 +55,10 @@ More broadly, we are interested in how systemic factors, including aging, chemot
 
 <h2 id="theme-3">Theme 3: Epistatic Genetic Interactions and Metastatic Fitness</h2>
 
+<div class="aligncenter">
+  <img src="/uploads/2026/03/epistasis.png" alt="Epistatsis Network Mapping" style="width:800px; height:auto;"/>
+</div>
+
 Metastatic fitness is not determined by single gene effects but by higher-order genetic networks that rewire cellular plasticity programs in response to environmental context. We have developed an innovative platform that integrates multiplexed in vivo dual-gene perturbations with single-cell transcriptomics to systematically map the epistatic networks governing metastasis. This approach captures both phenotypic outcomes and underlying transcriptional states at single-cell resolution within intact tissue, revealing how genetic interactions are context-dependent: they vary across distinct tumor subpopulations and are modulated by the local immune microenvironment.
 
 This work demonstrates that metastatic fitness emerges from combinatorial genetic complexity that cannot be understood gene by gene. Our platform provides a generalizable framework for decoding context-dependent vulnerabilities in cancer, enabling the systematic identification of interaction nodes that shape adaptive phenotypes in vivo. By linking epistatic network structure to transcriptional state and immune context, we aim to prioritize combinatorial therapeutic targets with greater precision than single-gene approaches allow.
