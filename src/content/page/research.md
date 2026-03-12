@@ -37,7 +37,21 @@ A key finding from our lab is that early metastatic colonization involves a meta
 
 More recently, we developed MetTag, a single-cell barcoding and transcriptome profiling approach with time-stamped clonal identifiers, to resolve the temporal dynamics of DTC dissemination across evolving metastatic niches. In studies of ovarian cancer metastasis (bioRxiv), deep barcode sequencing revealed that early-disseminated clones are preferentially enriched across metastatic sites, establishing a "first come, first served" principle of pro-metastatic adaptation. Single-cell RNA sequencing coupled with RNA velocity analyses in ascites and metastasis-bearing omenta uncovered a distinct interferon-gamma (IFNγ)-centric transcriptional trajectory that is selectively enriched among these early seeding clones. In vivo CRISPR/Cas9 screening of metastatic niche-specific gene signatures confirmed that members of the ascites IFN signature, including Marco, Gbp2b, and Slfn1, are functionally required for peritoneal metastasis. Knockout of IFN receptor 1 (Ifngr1) in tumor cells significantly reduced metastatic burden and extended survival, and mechanistically, we found that tumor-intrinsic IFN signaling cooperates with ascites-derived tumor-associated macrophages to protect cancer cells from anoikis by activating pro-survival NFκB/TNF signaling.
 
-In the brain metastatic niche, we use tissue clearing and SMART3D imaging to characterize morphological and functional changes in astrocytes, microglia, and vasculature during colonization. Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression (*Cell* 2020).
+In the brain metastatic niche, we use tissue clearing and SMART3D imaging to characterize morphological and functional changes in astrocytes, microglia, and vasculature during colonization. 
+
+<div class="aligncenter">
+  <img src="/uploads/2026/03/Cell2020.png" alt="Brain Metastasis and Immune Landscape (Guldner et al., Cell 2020)" style="width:800px; height:auto;"/>
+</div>
+
+<div style="background-color: var(--bg-alt); padding: 2rem; border-radius: 4px; margin: 3rem 0; border-left: 5px solid var(--accent-muted);">
+  <h4 style="margin-top: 0; color: var(--text-main); font-weight: 600;">Research Highlight: CNS-Myeloid Activation in Brain Metastasis</h4>
+  <p>Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression (<strong>Guldner et al., <em>Cell</em> 2020</strong>).</p>
+  <ul style="list-style-type: square; margin-left: 1.5rem; color: var(--text-muted); font-size: 0.95rem;">
+    <li><strong>Activated CNS-Myeloid Dynamics:</strong> Identification of a distinct activated myeloid population (CD86<sup>+</sup>/CX3CR1<sup>Lo</sup>/CXCL10<sup>Hi</sup>) that drives immunosuppression in the brain.</li>
+    <li><strong>Immune Checkpoint Synergy:</strong> Discovery that PD-L1 and VISTA cooperate on myeloid cells to inhibit T cell infiltration and activation.</li>
+    <li><strong>Metastatic Niche Remodeling:</strong> Spatial analysis reveals how tumor-associated microglia and macrophages physically remodel the niche to create a pro-survival environment.</li>
+  </ul>
+</div>
 
 <iframe width="750" height="450" src="https://www.youtube.com/embed/GbVjBbSH7VU" title="BrainMets Landscape" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
