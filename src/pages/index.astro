@@ -21,7 +21,8 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
       <img src={`${base}uploads/2018/12/Evolving-Minds-2.png`} alt="Evolving Minds" class="hero-logo reveal active" />
       <h1 class="reveal active stagger-1 hero-title">
         <span class="title-top">Deciphering the</span>
-        <span class="title-bottom serif-text">Architecture of the Tumor Ecosystem</span>
+        <span class="title-mid serif-text">Architecture of the</span>
+        <span class="title-bottom serif-text">Tumor Ecosystem</span>
       </h1>
       <p class="reveal active stagger-2 hero-description">Exploring the Beauty of Biology at the UT Southwestern Medical Center.</p>
       <div class="hero-btns reveal active stagger-3">
@@ -175,18 +176,29 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
   }
 
   .title-top {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 0.9rem;
+    font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.5em;
     font-family: var(--font-ui);
-    opacity: 0.8;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+
+  .title-mid {
+    font-size: 2.4rem;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    opacity: 0.9;
+    line-height: 1;
   }
 
   .title-bottom {
-    font-size: 3rem;
+    font-size: 4.8rem;
     font-weight: 400;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
+    margin-top: -0.2rem;
+    line-height: 1.1;
   }
 
   .hero-description { 
@@ -294,7 +306,9 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
   }
 
   @media (max-width: 992px) {
-    .hero h1 { font-size: 2.5rem; }
+    .hero h1 { font-size: 1rem; }
+    .title-mid { font-size: 1.8rem; }
+    .title-bottom { font-size: 3.2rem; }
     .hero-logo { max-height: 140px; }
     .mission-text { font-size: 1.6rem; }
     .pillar-grid, .post-grid, .social-grid { grid-template-columns: 1fr; gap: 3rem; }
