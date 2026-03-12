@@ -39,10 +39,6 @@ More recently, we developed MetTag, a single-cell barcoding and transcriptome pr
 
 In the brain metastatic niche, we use tissue clearing and SMART3D imaging to characterize morphological and functional changes in astrocytes, microglia, and vasculature during colonization. Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression ([*Cell* 2020](https://www.cell.com/cell/fulltext/S0092-8674(20)31305-2?rss=yes)).
 
-<div class="aligncenter">
-  <img src="/uploads/2026/03/Cell2020.png" alt="Brain Metastasis and Immune Landscape (Guldner et al., Cell 2020)" style="width:800px; height:auto;"/>
-</div>
-
 <div style="background-color: var(--bg-alt); padding: 2rem; border-radius: 4px; margin: 3rem 0; border-left: 5px solid var(--accent-muted);">
   <h4 style="margin-top: 0; color: var(--text-main); font-weight: 600;">Research Highlight: CNS-Myeloid Activation in Brain Metastasis</h4>
   <p>Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression ([<strong>Guldner et al., <em>Cell</em> 2020</strong>](https://www.cell.com/cell/fulltext/S0092-8674(20)31305-2?rss=yes)).</p>
