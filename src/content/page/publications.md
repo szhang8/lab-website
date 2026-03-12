@@ -13,7 +13,7 @@ description: ''
 <!-- wp:list-item -->
 <li>Aleksandrovic E, Fross SR, Golomb SM, Liu X, Zhao Z, Das NM, Reese TC, Ma W, Lopez J, Zhong Z, Zhao M, Stack MS, and <strong>Zhang S</strong>, 2025. Temporal Clonal Tracing Reveals Tumor-Intrinsic IFNγ-Dependencies Driving Niche Adaptation and Early Metastatic Colonization. <strong><em>bioRxiv</em></strong>. 2025 doi: 10.1101/2025.08.13.669778v2. [<a href="https://www.biorxiv.org/content/10.1101/2025.08.13.669778v2" target="_blank" rel="noreferrer noopener">Full-text</a>]</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Golomb SM, Guldner IH, Aleksandrovic E, Fross SR, Liu X, Diao L, Liang L, Wu J, Wang Q, Lopez JA, and <strong>Zhang S</strong>, 2025. Temporal dynamics of immune cell transcriptomics in brain metastasis progression influenced by gut microbiome dysbiosis. <strong><em>Cell Report</em></strong>  2025 Mar 25;44(3):115356. doi: 10.1016/j.celrep.2025.115356. Epub 2025 Feb 28. [<a href="https://www.sciencedirect.com/science/article/pii/S2211124725001275" target="_blank" rel="noreferrer noopener">Full-text</a>]</li>
+<li>Golomb SM, Guldner IH, Aleksandrovic E, Fross SR, Liu X, Diao L, Liang L, Wu J, Wang Q, Lopez JA, and <strong>Zhang S</strong>, 2025. Temporal dynamics of immune cell transcriptomics in brain metastasis progression influenced by gut microbiome dysbiosis. <strong><em>Cell Report</em></strong>  2025 Mar 25;44(3):115356. doi: 10.1016/j.celrep.2025.115356. Epub 2025 Feb 28. [<a href="https://www.sciencedirect.com/science/article/pii/S2211124725001275" target="_blank" rel="noreferrer noopener">Full Text</a>]</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
