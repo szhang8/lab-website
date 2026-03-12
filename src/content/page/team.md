@@ -6,15 +6,10 @@ description: ''
 
 <blockquote class="motto-callout">
   <p class="motto-text">
-    "We are a group of curious, sometimes naive individuals who want to run our research projects—you can call it a 'little entrepreneurial exercise'—no matter how nebulous or ambitious it sounds at the beginning."
+    "We are a group of curious, sometimes naive individuals who want to run our research projects—you can call it a 'little entrepreneurial exercise'—no matter how nebulous or ambitious it sounds at the beginning. <strong>Learning is our motto!</strong>"
   </p>
   <span class="motto-accent"></span>
 </blockquote>
-
-<div class="motto-callout reveal">
-  <p class="motto-text">Learning is our motto!</p>
-  <span class="motto-accent"></span>
-</div>
 
 <ul class="wp-block-list" style="margin-top: 30px;">
 <li>Siyuan Zhang, M.D., Ph.D., Lab Head & Cheerleader, <a href="mailto:Siyuan.Zhang@UTSouthwestern.edu">Siyuan.Zhang@UTSouthwestern.edu</a></li>
