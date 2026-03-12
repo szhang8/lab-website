@@ -4,11 +4,12 @@ pubDate: '2018-12-16'
 description: ''
 ---
 
-<!-- wp:paragraph {"dropCap":true,"style":{"typography":{"fontSize":"16px"}},"textColor":"cyan-bluish-gray"} -->
-<p class="has-drop-cap has-cyan-bluish-gray-color has-text-color" style="font-size:18px; font-style: italic;">
-  "We are a group of curious, sometimes naive individuals who want to run our research projects—you can call it a 'little entrepreneurial exercise'—no matter how nebulous or ambitious it sounds at the beginning."
-</p>
-<!-- /wp:paragraph -->
+<blockquote class="motto-callout">
+  <p class="motto-text">
+    "We are a group of curious, sometimes naive individuals who want to run our research projects—you can call it a 'little entrepreneurial exercise'—no matter how nebulous or ambitious it sounds at the beginning."
+  </p>
+  <span class="motto-accent"></span>
+</blockquote>
 
 <div class="motto-callout reveal">
   <p class="motto-text">Learning is our motto!</p>
