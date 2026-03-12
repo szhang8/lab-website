@@ -205,12 +205,13 @@ a {
 }
 
 .motto-text {
-  font-family: var(--font-serif);
-  font-size: 2.2rem;
-  font-weight: 300;
-  color: var(--text-main);
-  font-style: italic;
-  line-height: 1.2;
+  font-family: var(--font-ui);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
 }
 
 .motto-accent {
