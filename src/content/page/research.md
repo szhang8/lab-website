@@ -19,7 +19,7 @@ A tumor is an evolving ecosystem. The dynamic interplay between heterogeneous tu
   <img src="/uploads/2022/05/approaches-1024x403.png" alt="Research Approaches" style="width:768px; height:auto;"/>
 </div>
 
-## Theme 1: Tumor Evolution and Microenvironment Co-evolution
+<h2 id="theme-1">Theme 1: Tumor Evolution and Microenvironment Co-evolution</h2>
 
 Resistance to targeted therapy represents one of the most significant clinical challenges in oncology. Rather than arising from isolated mutations, resistance emerges from continuous evolutionary adaptation to a complex, dynamic TME. Our lab studies this process by mapping tumor evolution trajectories in transgenic mouse models, examining how selection pressures such as chemotherapy and targeted therapy reshape the tumor immune landscape and influence metastasis and immunotherapy response.
 
@@ -29,7 +29,7 @@ Resistance to targeted therapy represents one of the most significant clinical c
 
 A central challenge is that the co-evolution between tumor and TME is not governed by a handful of discrete genetic or epigenetic events, but by highly plastic, continuous transcriptome trajectories shaped by redundant, non-linear regulatory circuits. We ask whether, within this complexity, there are identifiable and tractable trajectories that govern tumor immunity. To address this, we apply multiplexed genetic perturbation approaches, including Perturb-seq and CROP-seq, and combine them with machine learning-based systems biology to investigate signaling plasticity and redundancy during tumor-TME interactions. Using single-cell RNA sequencing (CITE-seq) and spectral flow cytometry, we resolve the enormous cellular heterogeneity of the TME and generate testable hypotheses about tumor immunity that inform novel therapeutic strategies.
 
-## Theme 2: Metastasis and the Niche
+<h2 id="theme-2">Theme 2: Metastasis and the Niche</h2>
 
 Cancer metastasis requires tumor cells to colonize distant and drastically different tissue environments. A fundamental question is how continuously disseminating tumor cells (DTCs) survive, home to distant organs, and adapt to specialized metastatic niches, and how the reciprocal interplay between intrinsic tumor cell programs and niche-driven signals shapes this process. We investigate these questions through complementary experimental approaches spanning metabolic biology, clonal dynamics, and tumor-immune interactions.
 
@@ -43,7 +43,7 @@ In the brain metastatic niche, we use tissue clearing and SMART3D imaging to cha
 
 More broadly, we are interested in how systemic factors, including aging, chemotherapy exposure, and gut dysbiosis, modulate immune surveillance and shape the pre-metastatic niche. Related questions include the role of the meningeal and lymphatic systems in immune regulation of metastasis, strategies for modeling aged tissue microenvironments in vivo, and opportunities to exploit the spatial architecture of the tumor-immune interface for targeted drug delivery or imaging.
 
-## Theme 3: Epistatic Genetic Interactions and Metastatic Fitness
+<h2 id="theme-3">Theme 3: Epistatic Genetic Interactions and Metastatic Fitness</h2>
 
 Metastatic fitness is not determined by single gene effects but by higher-order genetic networks that rewire cellular plasticity programs in response to environmental context. We have developed an innovative platform that integrates multiplexed in vivo dual-gene perturbations with single-cell transcriptomics to systematically map the epistatic networks governing metastasis. This approach captures both phenotypic outcomes and underlying transcriptional states at single-cell resolution within intact tissue, revealing how genetic interactions are context-dependent: they vary across distinct tumor subpopulations and are modulated by the local immune microenvironment.
 
