@@ -41,7 +41,7 @@ In the brain metastatic niche, we use tissue clearing and SMART3D imaging to cha
 
 <div style="background-color: var(--bg-alt); padding: 2rem; border-radius: 4px; margin: 3rem 0; border-left: 5px solid var(--accent-muted);">
   <h4 style="margin-top: 0; color: var(--text-main); font-weight: 600;">Research Highlight: CNS-Myeloid Activation in Brain Metastasis</h4>
-  <p>Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression (Guldner et al., [*Cell*](https://doi.org/10.1016/j.cell.2020.09.064) 2020).</p>
+  <p>Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression (Guldner et al., <a href="https://doi.org/10.1016/j.cell.2020.09.064" target="_blank" rel="noreferrer noopener"><em>Cell</em></a> 2020).</p>
   <ul style="list-style-type: square; margin-left: 1.5rem; color: var(--text-muted); font-size: 0.95rem;">
     <li><strong>Activated CNS-Myeloid Dynamics:</strong> Identification of a distinct activated myeloid population (CD86<sup>+</sup>/CX3CR1<sup>Lo</sup>/CXCL10<sup>Hi</sup>) that drives immunosuppression in the brain.</li>
     <li><strong>Immune Checkpoint Synergy:</strong> Discovery that PD-L1 and VISTA cooperate on myeloid cells to inhibit T cell infiltration and activation.</li>
