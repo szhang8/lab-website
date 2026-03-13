@@ -21,13 +21,13 @@ A tumor is an evolving ecosystem. The dynamic interplay between heterogeneous tu
 
 <h2 id="theme-1">Theme 1: Tumor Evolution and Microenvironment Co-evolution</h2>
 
-Resistance to targeted therapy represents one of the most significant clinical challenges in oncology. Rather than arising from isolated mutations, resistance emerges from continuous evolutionary adaptation to a complex, dynamic TME. Our lab studies this process by mapping tumor evolution trajectories in transgenic mouse models, examining how selection pressures such as chemotherapy and targeted therapy reshape the tumor immune landscape and influence metastasis and immunotherapy response ([Wang et al., *Nature Communications* 2019](https://doi.org/10.1038/s41467-019-11729-1)).
+Resistance to targeted therapy represents one of the most significant clinical challenges in oncology. Rather than arising from isolated mutations, resistance emerges from continuous evolutionary adaptation to a complex, dynamic TME. Our lab studies this process by mapping tumor evolution trajectories in transgenic mouse models, examining how selection pressures such as chemotherapy and targeted therapy reshape the tumor immune landscape and influence metastasis and immunotherapy response (Wang et al., [*Nature Communications* 2019](https://doi.org/10.1038/s41467-019-11729-1)).
 
 <div class="aligncenter">
   <img src="/uploads/2022/05/TME-2-1024x600.png" alt="Tumor Microenvironment" style="width:768px; height:auto;"/>
 </div>
 
-A central challenge is that the co-evolution between tumor and TME is not governed by a handful of discrete genetic or epigenetic events, but by highly plastic, continuous transcriptome trajectories shaped by redundant, non-linear regulatory circuits. We ask whether, within this complexity, there are identifiable and tractable trajectories that govern tumor immunity. To address this, we apply multiplexed genetic perturbation approaches, including Perturb-seq and CROP-seq, and combine them with machine learning-based systems biology to investigate signaling plasticity and redundancy during tumor-TME interactions. Using single-cell RNA sequencing (CITE-seq) and spectral flow cytometry, we resolve the enormous cellular heterogeneity of the TME and generate testable hypotheses about tumor immunity that inform novel therapeutic strategies ([Palakurthi et al., *Nature Communications* 2023](https://doi.org/10.1038/s41467-023-37727-y)).
+A central challenge is that the co-evolution between tumor and TME is not governed by a handful of discrete genetic or epigenetic events, but by highly plastic, continuous transcriptome trajectories shaped by redundant, non-linear regulatory circuits. We ask whether, within this complexity, there are identifiable and tractable trajectories that govern tumor immunity. To address this, we apply multiplexed genetic perturbation approaches, including Perturb-seq and CROP-seq, and combine them with machine learning-based systems biology to investigate signaling plasticity and redundancy during tumor-TME interactions. Using single-cell RNA sequencing (CITE-seq) and spectral flow cytometry, we resolve the enormous cellular heterogeneity of the TME and generate testable hypotheses about tumor immunity that inform novel therapeutic strategies (Palakurthi et al., [*Nature Communications* 2023](https://doi.org/10.1038/s41467-023-37727-y)).
 
 <h2 id="theme-2">Theme 2: Metastasis and the Niche</h2>
 
@@ -41,7 +41,7 @@ In the brain metastatic niche, we use tissue clearing and SMART3D imaging to cha
 
 <div style="background-color: var(--bg-alt); padding: 2rem; border-radius: 4px; margin: 3rem 0; border-left: 5px solid var(--accent-muted);">
   <h4 style="margin-top: 0; color: var(--text-main); font-weight: 600;">Research Highlight: CNS-Myeloid Activation in Brain Metastasis</h4>
-  <p>Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression ([Guldner et al., *Cell* 2020](https://doi.org/10.1016/j.cell.2020.09.064)).</p>
+  <p>Beyond structural remodeling, we investigate the contributions of resident immune cells using conditional depletion and genetic knockout models, with particular focus on how metastasis-induced neuroinflammation promotes progression (Guldner et al., [*Cell* 2020](https://doi.org/10.1016/j.cell.2020.09.064)).</p>
   <ul style="list-style-type: square; margin-left: 1.5rem; color: var(--text-muted); font-size: 0.95rem;">
     <li><strong>Activated CNS-Myeloid Dynamics:</strong> Identification of a distinct activated myeloid population (CD86<sup>+</sup>/CX3CR1<sup>Lo</sup>/CXCL10<sup>Hi</sup>) that drives immunosuppression in the brain.</li>
     <li><strong>Immune Checkpoint Synergy:</strong> Discovery that PD-L1 and VISTA cooperate on myeloid cells to inhibit T cell infiltration and activation.</li>
