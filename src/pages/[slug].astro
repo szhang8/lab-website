@@ -1,21 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import PageHeader from '../components/PageHeader.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('page');
   return pages.map(page => ({
-    params: { slug: page.slug },
+    params: { slug: page.id },
     props: { page },
   }));
 }
 
 const { page } = Astro.props;
-const { Content } = await page.render();
+const { Content } = await render(page);
 
 // Fetch lab arts if this is the lab-arts page
-const isLabArts = page.slug === 'lab-arts';
+const isLabArts = page.id === 'lab-arts';
 const labArts = isLabArts ? await getCollection('lab-arts') : [];
 // Sort by date newest first if available
 const sortedLabArts = labArts.sort((a, b) => {
@@ -24,7 +24,7 @@ const sortedLabArts = labArts.sort((a, b) => {
   return dateB - dateA;
 });
 
-// Generate a subtitle based on the slug for a more editorial feel
+// Generate a subtitle based on the id for a more editorial feel
 const subtitles: Record<string, string> = {
   'research': 'Decoding the co-evolutionary interplay between tumor cells and the metastatic niche.',
   'team': 'Interdisciplinary researchers and life-long learners.',
@@ -37,7 +37,7 @@ const subtitles: Record<string, string> = {
   'undergraduate-courses': 'Foundation courses in molecular genetics and biology.'
 };
 
-const subtitle = subtitles[page.slug] || '';
+const subtitle = subtitles[page.id] || '';
 ---
 
 <Layout title={page.data.title}>

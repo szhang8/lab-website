@@ -17,9 +17,9 @@ const sortedPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
       {sortedPosts.map(post => (
         <article class="journal-card reveal">
           <time class="post-date">{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time>
-          <h2 class="post-title"><a href={`${base}blog/${post.slug}/`}>{post.data.title}</a></h2>
+          <h2 class="post-title"><a href={`${base}blog/${post.id}/`}>{post.data.title}</a></h2>
           <p class="post-excerpt">{post.data.description || "Reflections from the bench and beyond..."}</p>
-          <a href={`${base}blog/${post.slug}/`} class="read-link">Read entry</a>
+          <a href={`${base}blog/${post.id}/`} class="read-link">Read entry</a>
         </article>
       ))}
     </div>

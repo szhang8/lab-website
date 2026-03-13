@@ -41,7 +41,7 @@ description: ''
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Guldner IH, Wang Q, Yang L, Golomb SM, Zhao A, Lopez JA, Brunory A, Howe EN, Zhang Y, Palakurthi B, Barron M, Gao H, Xuei X, Liu Y, Li J, Chen DZ, Landreth GE,&nbsp;Zhang S.&nbsp;CNS-Native Myeloid Cells Drive Immune Suppression in the Brain Metastatic Niche through Cxcl10.&nbsp;<em>Cell</em>&nbsp;2020 Nov 25;183(5):1234-1248.e25. doi: 10.1016/j.cell.2020.09.064. [<a href="https://www.cell.com/cell/fulltext/S0092-8674(20)31305-2?rss=yes">Full text</a>] [<a href="https://wp.me/aaxhvs-dW">PDF</a>]</strong></li>
+<li><strong>Guldner IH, Wang Q, Yang L, Golomb SM, Zhao A, Lopez JA, Brunory A, Howe EN, Zhang Y, Palakurthi B, Barron M, Gao H, Xuei X, Liu Y, Li J, Chen DZ, Landreth GE,&nbsp;Zhang S.&nbsp;CNS-Native Myeloid Cells Drive Immune Suppression in the Brain Metastatic Niche through Cxcl10.&nbsp;<em>Cell</em>&nbsp;2020 Nov 25;183(5):1234-1248.e25. doi: 10.1016/j.cell.2020.09.064. [<a href="https://doi.org/10.1016/j.cell.2020.09.064">Full text</a>] [<a href="https://wp.me/aaxhvs-dW">PDF</a>]</strong></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
