@@ -30,6 +30,12 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
         <a href={`${base}team/`} class="btn-outline hero-btn-alt">Meet the Team</a>
       </div>
     </div>
+    <div class="scroll-indicator" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})">
+      <span class="scroll-text">Scroll to Discover</span>
+      <svg class="scroll-icon" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </div>
   </section>
 
   <!-- 2. Philosophy Section -->
@@ -213,6 +219,40 @@ const recentPosts = posts.sort((a, b) => new Date(b.data.pubDate).valueOf() - ne
   }
   
   .hero-btn-alt { color: white !important; border-color: rgba(255,255,255,0.3) !important; }
+
+  /* Scroll Indicator */
+  .scroll-indicator {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+    animation: bounce 2s infinite;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .scroll-indicator:hover {
+    color: white;
+  }
+
+  .scroll-text {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 8px;
+    font-family: var(--font-ui);
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+    40% { transform: translateY(-10px) translateX(-50%); }
+    60% { transform: translateY(-5px) translateX(-50%); }
+  }
 
   /* Philosophy */
   .small-container { max-width: 850px; text-align: center; }
